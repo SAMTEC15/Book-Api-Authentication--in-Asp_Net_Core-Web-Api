@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyBook.Domain.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,5 +11,6 @@ namespace MyBook.Domain.Dto
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        //public List<BookAuthor> BookAuthors { get; set; }
     }
 }

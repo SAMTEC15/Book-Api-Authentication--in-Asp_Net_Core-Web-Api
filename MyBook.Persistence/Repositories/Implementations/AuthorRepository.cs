@@ -22,6 +22,7 @@ namespace MyBook.Persistence.Repositories.Implementations
             {
                 FirstName = authorAddDto.FirstName,
                 LastName = authorAddDto.LastName,
+                //BookAuthors = authorAddDto.BookAuthors
             };
             await _applicationDbContext.Authors.AddAsync(author);
             await _applicationDbContext.SaveChangesAsync();
@@ -30,7 +31,7 @@ namespace MyBook.Persistence.Repositories.Implementations
         public async Task<Author> DeleteById(int? id)
         {
             var author = await _applicationDbContext.Authors.FirstOrDefaultAsync(u => u.Id == id);
-            if (id == null)
+            if (author == null)
             {
                 return null;
             }
