@@ -1,7 +1,10 @@
 using Microsoft.EntityFrameworkCore;
-using MyBook.Application;
+using MyBook.Application.Implementations;
+using MyBook.Application.Interfaces;
 using MyBook.Persistence;
 using MyBook.Persistence.Repositories;
+using MyBook.Persistence.Repositories.Implementations;
+using MyBook.Persistence.Repositories.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 

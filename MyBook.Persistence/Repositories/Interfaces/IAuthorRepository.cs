@@ -1,7 +1,7 @@
 ﻿using MyBook.Domain.Dto;
 using MyBook.Domain.Models;
 
-namespace MyBook.Persistence.Repositories
+namespace MyBook.Persistence.Repositories.Interfaces
 {
     public interface IAuthorRepository
     {

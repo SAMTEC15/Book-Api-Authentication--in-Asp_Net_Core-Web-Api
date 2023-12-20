@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyBook.Persistence.Repositories
+namespace MyBook.Persistence.Repositories.Interfaces
 {
-    public interface IBooksRepository 
+    public interface IBooksRepository
     {
         Task<Book> GetById(int? id);
         Task<IEnumerable<Book>> GetAllBooks();

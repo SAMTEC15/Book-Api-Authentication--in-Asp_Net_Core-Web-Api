@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyBook.Persistence.Repositories
+namespace MyBook.Persistence.Repositories.Interfaces
 {
     public interface IPublisherRepository
     {

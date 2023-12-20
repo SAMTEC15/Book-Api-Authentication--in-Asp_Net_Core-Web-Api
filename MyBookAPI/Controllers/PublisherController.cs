@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using MyBook.Application;
+using MyBook.Application.Interfaces;
 using MyBook.Domain.Dto;
 
 namespace MyBookAPI.Controllers

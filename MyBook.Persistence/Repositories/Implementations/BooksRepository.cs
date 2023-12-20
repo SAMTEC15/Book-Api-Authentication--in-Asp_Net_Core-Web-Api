@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MyBook.Domain.Dto;
 using MyBook.Domain.Models;
+using MyBook.Persistence.Repositories.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +16,6 @@ namespace MyBook.Persistence.Repositories
     public class BooksRepository : IBooksRepository
     {
         private readonly ApplicationDbContext _applicationDbContext;
-
         public BooksRepository(ApplicationDbContext applicationDbContext)
         {
             _applicationDbContext = applicationDbContext;
@@ -30,7 +30,6 @@ namespace MyBook.Persistence.Repositories
             await _applicationDbContext.SaveChangesAsync();         
             return book;
         }
-
         public async Task<Book> DeleteById(int? id)
         {
            var existingBook = await _applicationDbContext.Books.FirstOrDefaultAsync(u => u.Id == id);
@@ -42,12 +41,8 @@ namespace MyBook.Persistence.Repositories
            await _applicationDbContext.SaveChangesAsync();
             return existingBook;
         }
-
-        public async Task<IEnumerable<Book>> GetAllBooks() => await _applicationDbContext.Books.ToListAsync();
-       
-
+        public async Task<IEnumerable<Book>> GetAllBooks() => await _applicationDbContext.Books.ToListAsync(); 
         public async Task<Book> GetById(int? id) => await  _applicationDbContext.Books.FirstOrDefaultAsync(u => u.Id == id);      
-
         public async Task<BookAddDto> UpdateBook(int id, BookAddDto book)
         {            
             var bookCheck = await _applicationDbContext.Books.FirstOrDefaultAsync(u => u.Id.Equals(id));

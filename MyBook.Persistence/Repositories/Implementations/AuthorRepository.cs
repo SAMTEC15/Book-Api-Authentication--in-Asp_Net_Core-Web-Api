@@ -1,13 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MyBook.Domain.Dto;
 using MyBook.Domain.Models;
+using MyBook.Persistence.Repositories.Interfaces;
 
-namespace MyBook.Persistence.Repositories
+namespace MyBook.Persistence.Repositories.Implementations
 {
     public class AuthorRepository : IAuthorRepository
     {
         private readonly ApplicationDbContext _applicationDbContext;
-
         public AuthorRepository(ApplicationDbContext applicationDbContext)
         {
             _applicationDbContext = applicationDbContext;
@@ -27,7 +27,6 @@ namespace MyBook.Persistence.Repositories
             await _applicationDbContext.SaveChangesAsync();
             return author;
         }
-
         public async Task<Author> DeleteById(int? id)
         {
             var author = await _applicationDbContext.Authors.FirstOrDefaultAsync(u => u.Id == id);
@@ -39,13 +38,8 @@ namespace MyBook.Persistence.Repositories
             await _applicationDbContext.SaveChangesAsync();
             return author;
         }
-
         public async Task<IEnumerable<Author>> GetAllAuthor() => await _applicationDbContext.Authors.ToListAsync();
-
-
         public async Task<Author> GetById(int? id) => await _applicationDbContext.Authors.FirstOrDefaultAsync(u => u.Id == id);
-
-
         public async Task<AuthorAddDto> UpdateAuthor(int id, AuthorAddDto authorAddDto)
         {
             var existingPublisher = await _applicationDbContext.Authors.FirstOrDefaultAsync(u => u.Id.Equals(id));

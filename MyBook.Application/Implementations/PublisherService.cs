@@ -1,6 +1,7 @@
-﻿using MyBook.Domain.Dto;
+﻿using MyBook.Application.Interfaces;
+using MyBook.Domain.Dto;
 using MyBook.Domain.Models;
-using MyBook.Persistence.Repositories;
+using MyBook.Persistence.Repositories.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,12 +9,11 @@ using System.Text;
 using System.Threading.Tasks;
 using static System.Reflection.Metadata.BlobBuilder;
 
-namespace MyBook.Application
+namespace MyBook.Application.Implementations
 {
     public class PublisherService : IPublisherService
     {
         private readonly IPublisherRepository _publisherRepository;
-
         public PublisherService(IPublisherRepository publisherRepository)
         {
             _publisherRepository = publisherRepository;
@@ -34,7 +34,6 @@ namespace MyBook.Application
             _publisherRepository.AddPublisher(publisher);
             return Task.FromResult(publisher);
         }
-
         public async Task<Publisher> DeletePublisher(int? id)
         {
             if (id == null || id < 0)
@@ -48,13 +47,10 @@ namespace MyBook.Application
             }
             return deleInfo;
         }
-
         public Task<IEnumerable<Publisher>> GetAllPublisher() => _publisherRepository.GetAllPublisher();
-        
-
         public async Task<Publisher> GetPublisherByIdAsync(int? id)
         {
-            if(id == null || id < 0)
+            if (id == null || id < 0)
             {
                 return null;
             }
@@ -65,7 +61,6 @@ namespace MyBook.Application
             }
             return gottenBook;
         }
-
         public async Task<Publisher> UpdatePublisher(int id, PublisherAddDto publisherAddDto)
         {
             var update = await _publisherRepository.UpdatePublisher(id, publisherAddDto);
@@ -83,7 +78,7 @@ namespace MyBook.Application
                 FoundingYear = publisherAddDto.FoundingYear,
                 Name = publisherAddDto.Name,
                 Revenue = publisherAddDto.Revenue,
-                Website = publisherAddDto.Website,               
+                Website = publisherAddDto.Website,
             };
             return publisher;
         }
