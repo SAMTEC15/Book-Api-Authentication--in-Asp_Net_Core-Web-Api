@@ -1,0 +1,14 @@
+C:\Users\user1\Home\MyBook\MyBook.Domain\bin\Debug\net7.0\MyBook.Domain.deps.json
+C:\Users\user1\Home\MyBook\MyBook.Domain\bin\Debug\net7.0\MyBook.Domain.runtimeconfig.json
+C:\Users\user1\Home\MyBook\MyBook.Domain\bin\Debug\net7.0\MyBook.Domain.dll
+C:\Users\user1\Home\MyBook\MyBook.Domain\bin\Debug\net7.0\MyBook.Domain.pdb
+C:\Users\user1\Home\MyBook\MyBook.Domain\obj\Debug\net7.0\MyBook.Domain.csproj.AssemblyReference.cache
+C:\Users\user1\Home\MyBook\MyBook.Domain\obj\Debug\net7.0\MyBook.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Home\MyBook\MyBook.Domain\obj\Debug\net7.0\MyBook.Domain.AssemblyInfoInputs.cache
+C:\Users\user1\Home\MyBook\MyBook.Domain\obj\Debug\net7.0\MyBook.Domain.AssemblyInfo.cs
+C:\Users\user1\Home\MyBook\MyBook.Domain\obj\Debug\net7.0\MyBook.Domain.csproj.CoreCompileInputs.cache
+C:\Users\user1\Home\MyBook\MyBook.Domain\obj\Debug\net7.0\MyBook.Domain.dll
+C:\Users\user1\Home\MyBook\MyBook.Domain\obj\Debug\net7.0\refint\MyBook.Domain.dll
+C:\Users\user1\Home\MyBook\MyBook.Domain\obj\Debug\net7.0\MyBook.Domain.pdb
+C:\Users\user1\Home\MyBook\MyBook.Domain\obj\Debug\net7.0\MyBook.Domain.genruntimeconfig.cache
+C:\Users\user1\Home\MyBook\MyBook.Domain\obj\Debug\net7.0\ref\MyBook.Domain.dll
