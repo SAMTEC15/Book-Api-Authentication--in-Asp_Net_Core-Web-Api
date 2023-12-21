@@ -11,7 +11,7 @@ namespace MyBook.Persistence.Repositories.Interfaces
     public interface IPublisherRepository
     {
         Task<Publisher> GetById(int? id);
-        Task<IEnumerable<Publisher>> GetAllPublisher();
+        Task<List<Publisher>> GetAllPublisher();
         Task<Publisher> DeleteById(int? id);
         Task<PublisherAddDto> UpdatePublisher(int id, PublisherAddDto publisherAddDto);
         Task<Publisher> AddPublisher(Publisher publisher);

@@ -47,7 +47,7 @@ namespace MyBook.Application.Implementations
             }
             return deleInfo;
         }
-        public Task<IEnumerable<Publisher>> GetAllPublisher() => _publisherRepository.GetAllPublisher();
+        public Task<List<Publisher>> GetAllPublisher() => _publisherRepository.GetAllPublisher();
         public async Task<Publisher> GetPublisherByIdAsync(int? id)
         {
             if (id == null || id < 0)

@@ -12,7 +12,7 @@ namespace MyBook.Application.Interfaces
     {
         Task<Book> AddBookAsync(BookAddDto books);
         Task<IEnumerable<Book>> GetAllBooks();
-        Task<Book> GetBookByIdAsync(int? id);
+        Task<BookAuthorsReturnVM> GetBookByIdAsync(int? id);
         Task<Book> UpdateBook(int id, BookAddDto books);
         Task<Book> DeleteBook(int? id);
     }

@@ -12,7 +12,6 @@ namespace MyBookAPI.Controllers
     public class AuthorController : ControllerBase
     {
         private readonly IAuthorSerice _authorSerice;
-
         public AuthorController(IAuthorSerice authorSerice)
         {
             _authorSerice = authorSerice;

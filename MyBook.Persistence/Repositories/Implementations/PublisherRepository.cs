@@ -30,7 +30,7 @@ namespace MyBook.Persistence.Repositories.Implementations
         public async Task<Publisher> DeleteById(int? id)
         {
             var publisher = await _applicationDbContext.Publishers.FirstOrDefaultAsync(u => u.Id == id);
-            if (id == null)
+            if (publisher == null)
             {
                 return null;
             }
@@ -38,7 +38,7 @@ namespace MyBook.Persistence.Repositories.Implementations
             await _applicationDbContext.SaveChangesAsync();
             return publisher;
         }
-        public async Task<IEnumerable<Publisher>> GetAllPublisher() => await _applicationDbContext.Publishers.ToListAsync();
+        public async Task<List<Publisher>> GetAllPublisher() => await _applicationDbContext.Publishers.ToListAsync();
         public async Task<Publisher> GetById(int? id) => await _applicationDbContext.Publishers.FirstOrDefaultAsync(u => u.Id == id);
         public async Task<PublisherAddDto> UpdatePublisher(int id, PublisherAddDto publisherAddDto)
         {

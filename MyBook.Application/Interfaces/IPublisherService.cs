@@ -11,7 +11,7 @@ namespace MyBook.Application.Interfaces
     public interface IPublisherService
     {
         Task<Publisher> AddPublisherAsync(PublisherAddDto publisherAddDto);
-        Task<IEnumerable<Publisher>> GetAllPublisher();
+        Task<List<Publisher>> GetAllPublisher();
         Task<Publisher> GetPublisherByIdAsync(int? id);
         Task<Publisher> UpdatePublisher(int id, PublisherAddDto publisherAddDto);
         Task<Publisher> DeletePublisher(int? id);

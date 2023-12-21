@@ -20,22 +20,30 @@ namespace MyBook.Application.Implementations
         }
         public async Task<Book> AddBookAsync(BookAddDto books)
         {
-            var book = new Book()
+            /* var book = new Book()
+             {
+                 IsRead = books.IsRead,
+                 Author = books.Author,
+                 CoverUrl = books.CoverUrl,
+                 DateRead = books.IsRead ? books.DateRead.Value : null,
+                 Description = books.Description,
+                 Genre = books.Genre,
+                 Rate = books.IsRead ? books.Rate.Value : null,
+                 Title = books.Title,
+             };*/
+            if (books == null)
             {
-                IsRead = books.IsRead,
-                Author = books.Author,
-                CoverUrl = books.CoverUrl,
-                DateRead = books.IsRead ? books.DateRead.Value : null,
-                Description = books.Description,
-                Genre = books.Genre,
-                Rate = books.IsRead ? books.Rate.Value : null,
-                Title = books.Title,
-            };
-            _booksRepository.AddBook(book);
-            return await Task.FromResult(book);
+                return null;
+            }
+            var bookAdded = await _booksRepository.AddBook(books);
+            if (bookAdded == null)
+            {
+                return null;
+            }
+            return await Task.FromResult(bookAdded);
         }
-        public async Task<IEnumerable<Book>> GetAllBooks() => await _booksRepository.GetAllBooks();     
-        public async Task<Book> GetBookByIdAsync(int? id)
+        public async Task<IEnumerable<Book>> GetAllBooks() => await _booksRepository.GetAllBooks();
+        public async Task<BookAuthorsReturnVM> GetBookByIdAsync(int? id)
         {
             if (id < 0 || id == null)
             {
@@ -45,7 +53,7 @@ namespace MyBook.Application.Implementations
             if (getBook == null)
             {
                 return null;
-            }
+            }           
             return getBook;
         }
         public async Task<Book> UpdateBook(int id, BookAddDto books)
@@ -58,7 +66,7 @@ namespace MyBook.Application.Implementations
             var book = new Book
             {
                 Id = id,
-                Author = books.Author,
+               // Author = books.Author,
                 CoverUrl = books.CoverUrl,
                 Description = books.Description,
                 Genre = books.Genre,
