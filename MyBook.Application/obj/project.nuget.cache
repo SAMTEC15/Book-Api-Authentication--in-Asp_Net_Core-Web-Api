@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kwH+/0swmq/T0VUTBE8UE2XUTDu7Mj+CDA5mxRnsyqxCrn/+hEvGXhRd69V+wp2LxUQbysv8pYL03/BYCs9Zeg==",
+  "dgSpecHash": "UiR8S3dQiGPmyF5dYfUsAhJnahkiS0VNer0h87YDJclcatQQ1vJRou4lYP37v7D6kJhweq7nPc2Ilq2jSOw5qw==",
   "success": true,
   "projectFilePath": "C:\\Users\\user1\\Home\\MyBook\\MyBook.Application\\MyBook.Application.csproj",
   "expectedPackageFiles": [
@@ -42,6 +42,7 @@
     "C:\\Users\\user1\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\user1\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",

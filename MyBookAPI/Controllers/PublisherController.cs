@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using MyBook.Application.Implementations;
+﻿using Microsoft.AspNetCore.Mvc;
 using MyBook.Application.Interfaces;
 using MyBook.Domain.Dto;
 
@@ -11,7 +9,6 @@ namespace MyBookAPI.Controllers
     public class PublisherController : ControllerBase
     {
         private readonly IPublisherService _publisherService;
-
         public PublisherController(IPublisherService publisherService)
         {
             _publisherService = publisherService;
@@ -50,7 +47,7 @@ namespace MyBookAPI.Controllers
             return Ok(publisher);
         }
 
-        [HttpDelete]
+        [HttpDelete("delete-publisher-by-id/{id}")]
         public async Task<IActionResult> DeletePublisherById(int id)
         {
             if (!ModelState.IsValid)
@@ -65,7 +62,7 @@ namespace MyBookAPI.Controllers
             return Ok(publisher);
         }
 
-        [HttpPut]
+        [HttpPut("update-publisher-by-id/{id}")]
         public async Task<IActionResult> UpdatePublisherById(int id, [FromBody] PublisherAddDto publisherAddDto)
         {
             if (!ModelState.IsValid)

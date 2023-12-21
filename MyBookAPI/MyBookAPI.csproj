@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MyBook.Application\MyBook.Application.csproj" />
+    <ProjectReference Include="..\MyBook.Common\MyBook.Common.csproj" />
     <ProjectReference Include="..\MyBook.Persistence\MyBook.Persistence.csproj" />
   </ItemGroup>
 

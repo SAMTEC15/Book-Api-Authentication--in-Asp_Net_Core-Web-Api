@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9r2+egU0mvtlDGYeOxVQtfRKpPOD6iG70RYiJsMwpvcmkrA/QVWUVN4ydqnQri0YduRDNhunOPlUONaUvkMRIw==",
+  "dgSpecHash": "HuN2IbBhDsMaBEpfQN4vrj6L+dPFDoM/qlDpsHnVWRYbnnsBGW0+O/bKhLgaOLq6whbVww6mwzu6MmasVJmhPg==",
   "success": true,
   "projectFilePath": "C:\\Users\\user1\\Home\\MyBook\\MyBook.Persistence\\MyBook.Persistence.csproj",
   "expectedPackageFiles": [
@@ -42,6 +42,7 @@
     "C:\\Users\\user1\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\user1\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",

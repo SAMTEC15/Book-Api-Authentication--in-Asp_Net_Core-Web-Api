@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using MyBook.Application.Implementations;
 using MyBook.Application.Interfaces;
+using MyBook.Common.GlobalException;
 using MyBook.Persistence;
 using MyBook.Persistence.Repositories;
 using MyBook.Persistence.Repositories.Implementations;
@@ -36,6 +37,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+app.UseMiddleware<GlobalExceptionHandlingMiddleware>();
 
 app.MapControllers();
 
