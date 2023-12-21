@@ -15,5 +15,6 @@ namespace MyBook.Persistence.Repositories.Interfaces
         Task<Publisher> DeleteById(int? id);
         Task<PublisherAddDto> UpdatePublisher(int id, PublisherAddDto publisherAddDto);
         Task<Publisher> AddPublisher(Publisher publisher);
+        Task<PublisherWithBooksAndAuthorsDto> GetPublishDatail(int? publisherId);
     }
 }

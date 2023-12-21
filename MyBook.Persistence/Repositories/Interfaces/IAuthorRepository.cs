@@ -10,5 +10,6 @@ namespace MyBook.Persistence.Repositories.Interfaces
         Task<Author> DeleteById(int? id);
         Task<AuthorAddDto> UpdateAuthor(int id, AuthorAddDto authorAddDto);
         Task<Author> AddAuthor(AuthorAddDto authorAddDto);
+        Task<AuthorWithBooksDto> GetBookWithAuthor(int? id);
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyBook.Domain.Dto
 {
-    public class BookAuthorsReturnVM
+    public class BookAuthorsReturnDto
     {
         public string Title { get; set; }
         public string Description { get; set; }

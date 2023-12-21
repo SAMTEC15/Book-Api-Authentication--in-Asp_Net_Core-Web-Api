@@ -80,5 +80,14 @@ namespace MyBookAPI.Controllers
             return Ok(author);
         }
 
+        [HttpGet("get-author-with-books-by-id/{id}")]
+        public async Task<IActionResult> GetBookWithAuthor(int id)
+        {
+            var authorBooks = await _authorSerice.GetBookWithAuthor(id);
+            if(authorBooks == null)
+                return NotFound("Book with the given Id not found");
+            return Ok(authorBooks);
+        }
+
     }
 }

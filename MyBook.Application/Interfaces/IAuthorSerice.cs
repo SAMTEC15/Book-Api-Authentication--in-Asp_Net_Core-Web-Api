@@ -15,5 +15,6 @@ namespace MyBook.Application.Interfaces
         Task<Author> GetAuthorByIdAsync(int? id);
         Task<Author> UpdateAuthor(int id, AuthorAddDto authorAddDto);
         Task<Author> DeleteAuthor(int? id);
+        Task<AuthorWithBooksDto> GetBookWithAuthor(int? id);
     }
 }

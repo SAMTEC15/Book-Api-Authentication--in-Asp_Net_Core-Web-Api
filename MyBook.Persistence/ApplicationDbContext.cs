@@ -25,7 +25,12 @@ namespace MyBook.Persistence
                 .WithMany(u => u.BookAuthors)
                 .HasForeignKey(bi => bi.AuthorId);
 
-       
+            modelBuilder.Entity<Book>()
+           .HasOne(b => b.Publisher) // Configure the relationship for Book.Publisher
+           .WithMany() // Assuming a Publisher can have many Books
+           .HasForeignKey(b => b.PublisherId);
+
+            base.OnModelCreating(modelBuilder);
 
             // Call the SeedData method from the DataSeeder class
             //AddDbInitializer.Seed(modelBuilder);

@@ -67,9 +67,9 @@ namespace MyBook.Persistence.Repositories
         public async Task<IEnumerable<Book>> GetAllBooks() => await _applicationDbContext.Books.ToListAsync();
         //public async Task<Book> GetById(int? id) => await _applicationDbContext.Books.FirstOrDefaultAsync(u => u.Id == id);
 
-        public async Task<BookAuthorsReturnVM> GetById(int? id)
+        public async Task<BookAuthorsReturnDto> GetById(int? id)
         {
-            var books = await _applicationDbContext.Books.Where(u => u.Id == id).Select(book => new BookAuthorsReturnVM
+            var books = await _applicationDbContext.Books.Where(u => u.Id == id).Select(book => new BookAuthorsReturnDto
             {
                 Title = book.Title,
                 Description = book.Description,

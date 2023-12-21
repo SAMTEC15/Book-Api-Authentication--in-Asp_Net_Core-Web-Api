@@ -15,5 +15,6 @@ namespace MyBook.Application.Interfaces
         Task<Publisher> GetPublisherByIdAsync(int? id);
         Task<Publisher> UpdatePublisher(int id, PublisherAddDto publisherAddDto);
         Task<Publisher> DeletePublisher(int? id);
+        Task<PublisherWithBooksAndAuthorsDto> GetPublisherDetails(int? id);
     }
 }

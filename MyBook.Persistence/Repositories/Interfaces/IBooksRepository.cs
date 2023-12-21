@@ -10,7 +10,7 @@ namespace MyBook.Persistence.Repositories.Interfaces
 {
     public interface IBooksRepository
     {
-        Task<BookAuthorsReturnVM> GetById(int? id);
+        Task<BookAuthorsReturnDto> GetById(int? id);
         Task<IEnumerable<Book>> GetAllBooks();
         Task<Book> DeleteById(int? id);
         Task<BookAddDto> UpdateBook(int id, BookAddDto book);

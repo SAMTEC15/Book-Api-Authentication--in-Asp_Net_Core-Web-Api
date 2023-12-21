@@ -82,5 +82,15 @@ namespace MyBook.Application.Implementations
             };
             return publisher;
         }
+        public async Task<PublisherWithBooksAndAuthorsDto> GetPublisherDetails(int? id)
+        {
+            if (id == null)
+                return null;
+            var publisherDetails = await _publisherRepository.GetPublishDatail(id);
+            if (publisherDetails == null)
+                return null;
+            return publisherDetails;
+
+        }
     }
 }

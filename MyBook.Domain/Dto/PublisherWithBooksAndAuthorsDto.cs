@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace MyBook.Domain.Dto
 {
-    internal class AuthorBooksVM
+    public class PublisherWithBooksAndAuthorsDto
     {
+        public string Name { get; set; }    
+        public List<BookAuthorDto>   BookAuthors { get; set; }
     }
 }

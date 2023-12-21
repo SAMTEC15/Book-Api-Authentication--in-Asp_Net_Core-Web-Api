@@ -43,7 +43,7 @@ namespace MyBook.Application.Implementations
             return await Task.FromResult(bookAdded);
         }
         public async Task<IEnumerable<Book>> GetAllBooks() => await _booksRepository.GetAllBooks();
-        public async Task<BookAuthorsReturnVM> GetBookByIdAsync(int? id)
+        public async Task<BookAuthorsReturnDto> GetBookByIdAsync(int? id)
         {
             if (id < 0 || id == null)
             {

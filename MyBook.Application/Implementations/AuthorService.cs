@@ -68,5 +68,18 @@ namespace MyBook.Application.Implementations
             };
             return updated;
         }
+
+        public async Task<AuthorWithBooksDto> GetBookWithAuthor(int? id)
+        {
+            if(id <= 0 )
+            {
+                return null;
+            }
+           var authorsBook = await _authorRepository.GetBookWithAuthor(id);
+            if (authorsBook == null)
+                return null;
+            return authorsBook;
+        }
+
     }
 }

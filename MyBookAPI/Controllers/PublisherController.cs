@@ -34,7 +34,7 @@ namespace MyBookAPI.Controllers
             var publisher = await _publisherService.GetPublisherByIdAsync(id);
             if (publisher == null)
             {
-                return BadRequest("Publisher with the given Id notFound or Something went wrong");
+                return BadRequest("Publisher with the given Id notFound");
             }
             return Ok(publisher);
         }
@@ -60,7 +60,7 @@ namespace MyBookAPI.Controllers
             var publisher = await _publisherService.DeletePublisher(id);
             if (publisher == null)
             {
-                return BadRequest("Publisher with the given Id not found or Something went wrong");
+                return BadRequest("Publisher with the given Id not found");
             }
             return Ok(publisher);
         }
@@ -77,6 +77,15 @@ namespace MyBookAPI.Controllers
             {
                 return BadRequest("Publisher with the given Id not found or Something went wrong");
             }
+            return Ok(publisher);
+        }
+
+        [HttpGet("get-publisher-books-with-authors/{id}")]
+        public async Task<IActionResult> GetPublisherDetails(int id)
+        {
+            var publisher = await _publisherService.GetPublisherDetails(id);
+            if(publisher == null)
+                return NotFound("Publisher Deta with the given Id was not found");
             return Ok(publisher);
         }
     }

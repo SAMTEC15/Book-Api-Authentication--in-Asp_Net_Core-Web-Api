@@ -54,5 +54,17 @@ namespace MyBook.Persistence.Repositories.Implementations
             await _applicationDbContext.SaveChangesAsync();
             return authorAddDto;
         }
+
+        public async Task<AuthorWithBooksDto> GetBookWithAuthor(int? id)
+        {
+            var author = await _applicationDbContext.Authors.Where(u => u.Id == id).Select(u => new AuthorWithBooksDto
+            {
+                LastName = u.LastName,
+                FirstName = u.FirstName,
+                BookTitles = u.BookAuthors.Select(u => u.Book.Title).ToList(),
+            }).FirstOrDefaultAsync();
+            return author;
+        }
+
     }
 }
