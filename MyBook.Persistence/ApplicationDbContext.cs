@@ -12,6 +12,8 @@ namespace MyBook.Persistence
         public DbSet<BookAuthor> BookAuthors { get; set; }
         public DbSet<Author> Authors { get; set; }
         public DbSet<Publisher> Publishers { get; set; }
+
+        public DbSet<Image> Images { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
@@ -29,6 +31,10 @@ namespace MyBook.Persistence
            .HasOne(b => b.Publisher) // Configure the relationship for Book.Publisher
            .WithMany() // Assuming a Publisher can have many Books
            .HasForeignKey(b => b.PublisherId);
+
+        //    modelBuilder.Entity<Book>()
+        //.HasOne(b => b.Author)  // Assuming Book has a single Author navigation property
+        //.WithMany();
 
             base.OnModelCreating(modelBuilder);
 

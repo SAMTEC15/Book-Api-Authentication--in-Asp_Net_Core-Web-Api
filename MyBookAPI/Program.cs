@@ -28,7 +28,7 @@ builder.Services.AddScoped<IAuthorSerice, AuthorService>();
 builder.Services.AddScoped<IPublisherRepository, PublisherRepository>();
 builder.Services.AddScoped<IPublisherService, PublisherService>();
 
-//builder.Services.AddTransient<GlobalExceptionHandlingMiddleware>();
+builder.Services.AddTransient<GlobalExceptionHandlingMiddleware>();
 
 
 builder.Services.AddControllers();
@@ -48,7 +48,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
-//app.UseMiddleware<GlobalExceptionHandlingMiddleware>();
+app.UseMiddleware<GlobalExceptionHandlingMiddleware>();
 
 app.MapControllers();
 
