@@ -6,8 +6,15 @@ using MyBook.Persistence;
 using MyBook.Persistence.Repositories;
 using MyBook.Persistence.Repositories.Implementations;
 using MyBook.Persistence.Repositories.Interfaces;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
+
+//builder.Services.AddLogging();
+Log.Logger = new LoggerConfiguration().MinimumLevel.Information()
+    .WriteTo.Console()
+    .WriteTo.File("Logs/LogInfomation-.txt", rollingInterval: RollingInterval.Day)
+    .CreateLogger();
 
 // Add services to the container.
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConn")));
@@ -18,6 +25,8 @@ builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
 builder.Services.AddScoped<IAuthorSerice, AuthorService>();
 builder.Services.AddScoped<IPublisherRepository, PublisherRepository>();
 builder.Services.AddScoped<IPublisherService, PublisherService>();
+
+builder.Services.AddTransient<GlobalExceptionHandlingMiddleware>();
 
 
 builder.Services.AddControllers();

@@ -1,33 +1,44 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc;
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace MyBook.Common.GlobalException
 {
     public class GlobalExceptionHandlingMiddleware : IMiddleware
     {
-        private readonly RequestDelegate _requestDelegate;
-        private readonly ILogger _logger;
-
-        public GlobalExceptionHandlingMiddleware(RequestDelegate requestDelegate, ILogger logger)
-        {
-            _requestDelegate = requestDelegate;
+        
+        private readonly ILogger<GlobalExceptionHandlingMiddleware> _logger;
+        public GlobalExceptionHandlingMiddleware(ILogger<GlobalExceptionHandlingMiddleware> logger)
+        {            
             _logger = logger;
         }
-
-        public async Task InvokeAsync(HttpContext context)
+        public async Task InvokeAsync(HttpContext context, RequestDelegate next)
         {
             try
             {
-                await _requestDelegate(context);
+                await next(context);
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 _logger.LogError(e, e.Message);
-                context.Response.StatusCode = HttpStatusCode.InternalServerError;
+                context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
+
+                var problem = new ProblemDetails()
+                {
+                    Status = (int)HttpStatusCode.InternalServerError,
+                    Type = "Server error",
+                    Title = "Internal Server error",
+                    Detail = "An internal server Server has occurred, we currently looking at fixing this."
+                };
+                var json = JsonSerializer.Serialize(problem);
+                await context.Response.WriteAsync(json);
+                context.Response.ContentType = "application/json";
             }
         }
     }
