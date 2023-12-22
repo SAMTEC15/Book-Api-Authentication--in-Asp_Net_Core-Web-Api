@@ -22,7 +22,7 @@ namespace MyBook.Application.Implementations
         }
         public async Task<Image> UploadImageAsync(ImageUploadRequestDto imageUploadRequestDto)
         {
-            ValidateFileUpload(imageUploadRequestDto);
+            //ValidateFileUpload(imageUploadRequestDto);
             if (ValidateFileUpload(imageUploadRequestDto) == null)
             {
                 var imageDomain = new Image
@@ -57,7 +57,7 @@ namespace MyBook.Application.Implementations
 
         public (string fieldName, string errorMessage)? ValidateFileUpload(ImageUploadRequestDto imageUploadRequestDto)
         {
-            var allowExtensions = new string[] { ".jpg", ".jpeg", ".png" };
+            var allowExtensions = new string[] { ".jpg", ".jpeg", ".png", ".pdf", StringComparison.OrdinalIgnoreCase.ToString()};
             var fileExtension = Path.GetExtension(imageUploadRequestDto.File.FileName)?.ToLower();
 
             // Check if the file extension is supported

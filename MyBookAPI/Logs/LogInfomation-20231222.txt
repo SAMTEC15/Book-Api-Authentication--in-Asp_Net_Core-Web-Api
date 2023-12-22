@@ -688,3 +688,839 @@ ORDER BY [t].[Id], [t].[Id0], [t0].[Id]
 2023-12-22 11:12:57.447 +01:00 [INF] Executed action MyBookAPI.Controllers.BooksController.GetBook (MyBookAPI) in 139.5488ms
 2023-12-22 11:12:57.454 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.BooksController.GetBook (MyBookAPI)'
 2023-12-22 11:12:57.457 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/api/Books/get/book/byId/11 - - - 200 - application/json;+charset=utf-8 163.1600ms
+2023-12-22 13:15:57.892 +01:00 [INF] Now listening on: https://localhost:7141
+2023-12-22 13:15:58.008 +01:00 [INF] Now listening on: http://localhost:5223
+2023-12-22 13:15:58.016 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 13:15:58.020 +01:00 [INF] Hosting environment: Development
+2023-12-22 13:15:58.022 +01:00 [INF] Content root path: C:\Users\user1\Home\MyBook\MyBookAPI
+2023-12-22 13:16:05.246 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2023-12-22 13:16:05.968 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 722.2745ms
+2023-12-22 13:16:05.977 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2023-12-22 13:16:05.982 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 13:16:06.062 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 80.2554ms
+2023-12-22 13:16:06.157 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 179.9506ms
+2023-12-22 13:16:06.391 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2023-12-22 13:16:06.832 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 440.9530ms
+2023-12-22 13:17:10.551 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Image/Upload multipart/form-data;+boundary=----WebKitFormBoundaryruuzFpbBtmHO5Jg6 503933
+2023-12-22 13:17:10.605 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.ImageController.Upload (MyBookAPI)'
+2023-12-22 13:17:10.682 +01:00 [INF] Route matched with {action = "Upload", controller = "Image"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Upload(MyBook.Domain.Dto.ImageUploadRequestDto) on controller MyBookAPI.Controllers.ImageController (MyBookAPI).
+2023-12-22 13:19:07.206 +01:00 [INF] Executed action MyBookAPI.Controllers.ImageController.Upload (MyBookAPI) in 116508.3975ms
+2023-12-22 13:19:07.218 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.ImageController.Upload (MyBookAPI)'
+2023-12-22 13:19:31.803 +01:00 [ERR] Could not find a part of the path 'C:\Users\user1\Home\MyBook\MyBookAPI\Uploads\Image.jpeg'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\user1\Home\MyBook\MyBookAPI\Uploads\Image.jpeg'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at MyBook.Persistence.Repositories.Implementations.ImageRepository.Upload(Image image) in C:\Users\user1\Home\MyBook\MyBook.Persistence\Repositories\Implementations\ImageRepository.cs:line 32
+   at MyBook.Application.Implementations.ImageService.UploadImageAsync(ImageUploadRequestDto imageUploadRequestDto) in C:\Users\user1\Home\MyBook\MyBook.Application\Implementations\ImageService.cs:line 36
+   at MyBookAPI.Controllers.ImageController.Upload(ImageUploadRequestDto imageUploadRequestDto) in C:\Users\user1\Home\MyBook\MyBookAPI\Controllers\ImageController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at MyBook.Common.GlobalException.GlobalExceptionHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\user1\Home\MyBook\MyBookAPI\GlobalException\GlobalExceptionHandlingMiddleware.cs:line 25
+2023-12-22 13:19:32.052 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at MyBook.Common.GlobalException.GlobalExceptionHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\user1\Home\MyBook\MyBookAPI\GlobalException\GlobalExceptionHandlingMiddleware.cs:line 41
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-22 13:19:32.065 +01:00 [WRN] The response has already started, the error page middleware will not be executed.
+2023-12-22 13:19:32.077 +01:00 [ERR] Connection id "0HN02SV0K0CB0", Request id "0HN02SV0K0CB0:00000009": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at MyBook.Common.GlobalException.GlobalExceptionHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\user1\Home\MyBook\MyBookAPI\GlobalException\GlobalExceptionHandlingMiddleware.cs:line 41
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-12-22 13:19:32.128 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Image/Upload multipart/form-data;+boundary=----WebKitFormBoundaryruuzFpbBtmHO5Jg6 503933 - 500 - - 141576.9989ms
+2023-12-22 13:22:34.349 +01:00 [INF] Now listening on: https://localhost:7141
+2023-12-22 13:22:34.434 +01:00 [INF] Now listening on: http://localhost:5223
+2023-12-22 13:22:34.441 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 13:22:34.444 +01:00 [INF] Hosting environment: Development
+2023-12-22 13:22:34.447 +01:00 [INF] Content root path: C:\Users\user1\Home\MyBook\MyBookAPI
+2023-12-22 13:22:42.205 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2023-12-22 13:22:43.141 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 946.1894ms
+2023-12-22 13:22:43.155 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2023-12-22 13:22:43.155 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 13:22:43.297 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 141.4471ms
+2023-12-22 13:22:43.441 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 285.6919ms
+2023-12-22 13:22:43.647 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2023-12-22 13:22:44.104 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 456.4482ms
+2023-12-22 13:29:24.240 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Image/Upload multipart/form-data;+boundary=----WebKitFormBoundaryQbiiI4QVI3VtJnw4 503933
+2023-12-22 13:29:24.273 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.ImageController.Upload (MyBookAPI)'
+2023-12-22 13:29:24.344 +01:00 [INF] Route matched with {action = "Upload", controller = "Image"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Upload(MyBook.Domain.Dto.ImageUploadRequestDto) on controller MyBookAPI.Controllers.ImageController (MyBookAPI).
+2023-12-22 13:29:33.219 +01:00 [WRN] There are multiple relationships between 'Book' and 'Publisher' without configured foreign key properties. This will cause Entity Framework to create shadow properties on 'Book' with names dependent on the discovery order. Consider configuring the foreign key properties using the [ForeignKey] attribute or in 'OnModelCreating'.
+2023-12-22 13:29:33.691 +01:00 [WRN] The foreign key property 'Book.PublisherId1' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-22 13:29:33.695 +01:00 [WRN] The foreign key property 'Book.PublisherId2' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-22 13:29:33.801 +01:00 [WRN] No store type was specified for the decimal property 'Revenue' on entity type 'Publisher'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-12-22 13:29:35.922 +01:00 [ERR] Failed executing DbCommand (147ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Images] ([FileDescription], [FileExtension], [FileName], [FilePath], [FileSizeInBytes])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2023-12-22 13:29:36.033 +01:00 [ERR] An exception occurred in the database while saving changes for context type 'MyBook.Persistence.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Images'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__208_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:b51b7cf7-02b7-4bea-8acd-3098a116f4ba
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Images'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__208_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:b51b7cf7-02b7-4bea-8acd-3098a116f4ba
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-12-22 13:29:36.567 +01:00 [INF] Executed action MyBookAPI.Controllers.ImageController.Upload (MyBookAPI) in 12205.5622ms
+2023-12-22 13:29:36.572 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.ImageController.Upload (MyBookAPI)'
+2023-12-22 13:29:36.900 +01:00 [ERR] An error occurred while saving the entity changes. See the inner exception for details.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Images'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__208_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:b51b7cf7-02b7-4bea-8acd-3098a116f4ba
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at MyBook.Persistence.Repositories.Implementations.ImageRepository.Upload(Image image) in C:\Users\user1\Home\MyBook\MyBook.Persistence\Repositories\Implementations\ImageRepository.cs:line 39
+   at MyBook.Application.Implementations.ImageService.UploadImageAsync(ImageUploadRequestDto imageUploadRequestDto) in C:\Users\user1\Home\MyBook\MyBook.Application\Implementations\ImageService.cs:line 36
+   at MyBookAPI.Controllers.ImageController.Upload(ImageUploadRequestDto imageUploadRequestDto) in C:\Users\user1\Home\MyBook\MyBookAPI\Controllers\ImageController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at MyBook.Common.GlobalException.GlobalExceptionHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\user1\Home\MyBook\MyBookAPI\GlobalException\GlobalExceptionHandlingMiddleware.cs:line 25
+2023-12-22 13:29:37.196 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at MyBook.Common.GlobalException.GlobalExceptionHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\user1\Home\MyBook\MyBookAPI\GlobalException\GlobalExceptionHandlingMiddleware.cs:line 41
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-22 13:29:37.209 +01:00 [WRN] The response has already started, the error page middleware will not be executed.
+2023-12-22 13:29:37.216 +01:00 [ERR] Connection id "0HN02T2MOKBJ5", Request id "0HN02T2MOKBJ5:00000009": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at MyBook.Common.GlobalException.GlobalExceptionHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\user1\Home\MyBook\MyBookAPI\GlobalException\GlobalExceptionHandlingMiddleware.cs:line 41
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-12-22 13:29:37.272 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Image/Upload multipart/form-data;+boundary=----WebKitFormBoundaryQbiiI4QVI3VtJnw4 503933 - 500 - - 13037.6589ms
+2023-12-22 13:30:03.965 +01:00 [INF] Now listening on: https://localhost:7141
+2023-12-22 13:30:04.067 +01:00 [INF] Now listening on: http://localhost:5223
+2023-12-22 13:30:04.086 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 13:30:04.110 +01:00 [INF] Hosting environment: Development
+2023-12-22 13:30:04.112 +01:00 [INF] Content root path: C:\Users\user1\Home\MyBook\MyBookAPI
+2023-12-22 13:30:10.869 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2023-12-22 13:30:11.559 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2023-12-22 13:30:11.559 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 13:30:11.567 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 703.4527ms
+2023-12-22 13:30:11.585 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 26.3343ms
+2023-12-22 13:30:11.689 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 129.9727ms
+2023-12-22 13:30:11.877 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2023-12-22 13:30:12.236 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 358.8555ms
+2023-12-22 13:30:37.655 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Image/Upload multipart/form-data;+boundary=----WebKitFormBoundaryvKdTxmnFJnvzkvUE 503933
+2023-12-22 13:30:37.700 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.ImageController.Upload (MyBookAPI)'
+2023-12-22 13:30:37.761 +01:00 [INF] Route matched with {action = "Upload", controller = "Image"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Upload(MyBook.Domain.Dto.ImageUploadRequestDto) on controller MyBookAPI.Controllers.ImageController (MyBookAPI).
+2023-12-22 13:33:35.859 +01:00 [WRN] There are multiple relationships between 'Book' and 'Publisher' without configured foreign key properties. This will cause Entity Framework to create shadow properties on 'Book' with names dependent on the discovery order. Consider configuring the foreign key properties using the [ForeignKey] attribute or in 'OnModelCreating'.
+2023-12-22 13:33:36.215 +01:00 [WRN] The foreign key property 'Book.PublisherId1' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-22 13:33:36.222 +01:00 [WRN] The foreign key property 'Book.PublisherId2' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-22 13:33:36.303 +01:00 [WRN] No store type was specified for the decimal property 'Revenue' on entity type 'Publisher'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-12-22 13:33:38.186 +01:00 [ERR] Failed executing DbCommand (128ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Images] ([FileDescription], [FileExtension], [FileName], [FilePath], [FileSizeInBytes])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2023-12-22 13:33:38.295 +01:00 [ERR] An exception occurred in the database while saving changes for context type 'MyBook.Persistence.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Images'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__208_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:81c8b6f8-3fbe-4f37-8db8-dfa2f933491d
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Images'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__208_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:81c8b6f8-3fbe-4f37-8db8-dfa2f933491d
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-12-22 13:33:38.817 +01:00 [INF] Executed action MyBookAPI.Controllers.ImageController.Upload (MyBookAPI) in 181044.198ms
+2023-12-22 13:33:38.824 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.ImageController.Upload (MyBookAPI)'
+2023-12-22 13:33:38.836 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Images'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__208_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:81c8b6f8-3fbe-4f37-8db8-dfa2f933491d
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at MyBook.Persistence.Repositories.Implementations.ImageRepository.Upload(Image image) in C:\Users\user1\Home\MyBook\MyBook.Persistence\Repositories\Implementations\ImageRepository.cs:line 39
+   at MyBook.Application.Implementations.ImageService.UploadImageAsync(ImageUploadRequestDto imageUploadRequestDto) in C:\Users\user1\Home\MyBook\MyBook.Application\Implementations\ImageService.cs:line 36
+   at MyBookAPI.Controllers.ImageController.Upload(ImageUploadRequestDto imageUploadRequestDto) in C:\Users\user1\Home\MyBook\MyBookAPI\Controllers\ImageController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-22 13:33:38.930 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Image/Upload multipart/form-data;+boundary=----WebKitFormBoundaryvKdTxmnFJnvzkvUE 503933 - 500 - text/plain;+charset=utf-8 181275.0389ms
+2023-12-22 13:34:42.205 +01:00 [WRN] There are multiple relationships between 'Book' and 'Publisher' without configured foreign key properties. This will cause Entity Framework to create shadow properties on 'Book' with names dependent on the discovery order. Consider configuring the foreign key properties using the [ForeignKey] attribute or in 'OnModelCreating'.
+2023-12-22 13:34:42.466 +01:00 [WRN] The foreign key property 'Book.PublisherId1' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-22 13:34:42.467 +01:00 [WRN] The foreign key property 'Book.PublisherId2' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-22 13:34:42.520 +01:00 [WRN] No store type was specified for the decimal property 'Revenue' on entity type 'Publisher'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-12-22 13:34:42.811 +01:00 [WRN] There are multiple relationships between 'Book' and 'Publisher' without configured foreign key properties. This will cause Entity Framework to create shadow properties on 'Book' with names dependent on the discovery order. Consider configuring the foreign key properties using the [ForeignKey] attribute or in 'OnModelCreating'.
+2023-12-22 13:34:42.875 +01:00 [WRN] The foreign key property 'Book.PublisherId1' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-22 13:34:42.875 +01:00 [WRN] The foreign key property 'Book.PublisherId2' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-22 13:34:42.879 +01:00 [WRN] No store type was specified for the decimal property 'Revenue' on entity type 'Publisher'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-12-22 13:35:02.531 +01:00 [WRN] There are multiple relationships between 'Book' and 'Publisher' without configured foreign key properties. This will cause Entity Framework to create shadow properties on 'Book' with names dependent on the discovery order. Consider configuring the foreign key properties using the [ForeignKey] attribute or in 'OnModelCreating'.
+2023-12-22 13:35:02.829 +01:00 [WRN] The foreign key property 'Book.PublisherId1' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-22 13:35:02.830 +01:00 [WRN] The foreign key property 'Book.PublisherId2' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-22 13:35:02.892 +01:00 [WRN] No store type was specified for the decimal property 'Revenue' on entity type 'Publisher'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-12-22 13:35:03.862 +01:00 [INF] Executed DbCommand (54ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-12-22 13:35:03.931 +01:00 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-12-22 13:35:03.938 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-12-22 13:35:03.940 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-12-22 13:35:04.007 +01:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-12-22 13:35:04.045 +01:00 [INF] Applying migration '20231222123443_ImageMigation'.
+2023-12-22 13:35:04.262 +01:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Images] (
+    [Id] int NOT NULL IDENTITY,
+    [FileName] nvarchar(max) NOT NULL,
+    [FileExtension] nvarchar(max) NOT NULL,
+    [FileSizeInBytes] bigint NOT NULL,
+    [FilePath] nvarchar(max) NOT NULL,
+    [FileDescription] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Images] PRIMARY KEY ([Id])
+);
+2023-12-22 13:35:04.276 +01:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20231222123443_ImageMigation', N'7.0.0');
+2023-12-22 13:35:21.591 +01:00 [INF] Now listening on: https://localhost:7141
+2023-12-22 13:35:21.705 +01:00 [INF] Now listening on: http://localhost:5223
+2023-12-22 13:35:21.713 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 13:35:21.717 +01:00 [INF] Hosting environment: Development
+2023-12-22 13:35:21.721 +01:00 [INF] Content root path: C:\Users\user1\Home\MyBook\MyBookAPI
+2023-12-22 13:35:27.466 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2023-12-22 13:35:28.176 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 719.0846ms
+2023-12-22 13:35:28.206 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 13:35:28.206 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2023-12-22 13:35:28.226 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 19.7772ms
+2023-12-22 13:35:28.472 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 265.9950ms
+2023-12-22 13:35:28.656 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2023-12-22 13:35:29.024 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 367.9576ms
+2023-12-22 13:36:03.416 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Image/Upload multipart/form-data;+boundary=----WebKitFormBoundaryqocVGUc3JBe2diCl 503933
+2023-12-22 13:36:03.448 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.ImageController.Upload (MyBookAPI)'
+2023-12-22 13:36:03.522 +01:00 [INF] Route matched with {action = "Upload", controller = "Image"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Upload(MyBook.Domain.Dto.ImageUploadRequestDto) on controller MyBookAPI.Controllers.ImageController (MyBookAPI).
+2023-12-22 13:36:05.300 +01:00 [WRN] There are multiple relationships between 'Book' and 'Publisher' without configured foreign key properties. This will cause Entity Framework to create shadow properties on 'Book' with names dependent on the discovery order. Consider configuring the foreign key properties using the [ForeignKey] attribute or in 'OnModelCreating'.
+2023-12-22 13:36:05.697 +01:00 [WRN] The foreign key property 'Book.PublisherId1' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-22 13:36:05.703 +01:00 [WRN] The foreign key property 'Book.PublisherId2' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-22 13:36:05.787 +01:00 [WRN] No store type was specified for the decimal property 'Revenue' on entity type 'Publisher'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-12-22 13:36:07.820 +01:00 [INF] Executed DbCommand (168ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Images] ([FileDescription], [FileExtension], [FileName], [FilePath], [FileSizeInBytes])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2023-12-22 13:36:07.982 +01:00 [ERR] An exception occurred in the database while saving changes for context type 'MyBook.Persistence.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'FileDescription', table 'Books.dbo.Images'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:34bebe67-1592-4106-b20c-37f8d40123d5
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'FileDescription', table 'Books.dbo.Images'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:34bebe67-1592-4106-b20c-37f8d40123d5
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-12-22 13:36:08.680 +01:00 [INF] Executed action MyBookAPI.Controllers.ImageController.Upload (MyBookAPI) in 5141.6927ms
+2023-12-22 13:36:08.686 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.ImageController.Upload (MyBookAPI)'
+2023-12-22 13:36:08.702 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'FileDescription', table 'Books.dbo.Images'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:34bebe67-1592-4106-b20c-37f8d40123d5
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at MyBook.Persistence.Repositories.Implementations.ImageRepository.Upload(Image image) in C:\Users\user1\Home\MyBook\MyBook.Persistence\Repositories\Implementations\ImageRepository.cs:line 39
+   at MyBook.Application.Implementations.ImageService.UploadImageAsync(ImageUploadRequestDto imageUploadRequestDto) in C:\Users\user1\Home\MyBook\MyBook.Application\Implementations\ImageService.cs:line 36
+   at MyBookAPI.Controllers.ImageController.Upload(ImageUploadRequestDto imageUploadRequestDto) in C:\Users\user1\Home\MyBook\MyBookAPI\Controllers\ImageController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-22 13:36:08.802 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Image/Upload multipart/form-data;+boundary=----WebKitFormBoundaryqocVGUc3JBe2diCl 503933 - 500 - text/plain;+charset=utf-8 5386.1888ms
+2023-12-22 13:36:34.023 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Image/Upload multipart/form-data;+boundary=----WebKitFormBoundaryGttfJ8iavJAMCW3W 503933
+2023-12-22 13:36:34.043 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.ImageController.Upload (MyBookAPI)'
+2023-12-22 13:36:34.048 +01:00 [INF] Route matched with {action = "Upload", controller = "Image"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Upload(MyBook.Domain.Dto.ImageUploadRequestDto) on controller MyBookAPI.Controllers.ImageController (MyBookAPI).
+2023-12-22 13:37:59.151 +01:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[FileDescription], [i].[FileExtension], [i].[FileName], [i].[FilePath], [i].[FileSizeInBytes]
+FROM [Images] AS [i]
+2023-12-22 13:38:10.730 +01:00 [INF] Executed DbCommand (45ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Images] ([FileDescription], [FileExtension], [FileName], [FilePath], [FileSizeInBytes])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2023-12-22 13:38:10.754 +01:00 [ERR] An exception occurred in the database while saving changes for context type 'MyBook.Persistence.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'FileDescription', table 'Books.dbo.Images'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:34bebe67-1592-4106-b20c-37f8d40123d5
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'FileDescription', table 'Books.dbo.Images'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:34bebe67-1592-4106-b20c-37f8d40123d5
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-12-22 13:38:11.916 +01:00 [INF] Executed action MyBookAPI.Controllers.ImageController.Upload (MyBookAPI) in 97861.8878ms
+2023-12-22 13:38:11.920 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.ImageController.Upload (MyBookAPI)'
+2023-12-22 13:38:11.924 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'FileDescription', table 'Books.dbo.Images'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:34bebe67-1592-4106-b20c-37f8d40123d5
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at MyBook.Persistence.Repositories.Implementations.ImageRepository.Upload(Image image) in C:\Users\user1\Home\MyBook\MyBook.Persistence\Repositories\Implementations\ImageRepository.cs:line 39
+   at MyBook.Application.Implementations.ImageService.UploadImageAsync(ImageUploadRequestDto imageUploadRequestDto) in C:\Users\user1\Home\MyBook\MyBook.Application\Implementations\ImageService.cs:line 36
+   at MyBookAPI.Controllers.ImageController.Upload(ImageUploadRequestDto imageUploadRequestDto) in C:\Users\user1\Home\MyBook\MyBookAPI\Controllers\ImageController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-22 13:38:12.015 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Image/Upload multipart/form-data;+boundary=----WebKitFormBoundaryGttfJ8iavJAMCW3W 503933 - 500 - text/plain;+charset=utf-8 97992.0281ms
+2023-12-22 13:38:57.085 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Image/Upload multipart/form-data;+boundary=----WebKitFormBoundaryy3eU0TQBYIklSISh 503939
+2023-12-22 13:38:57.145 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.ImageController.Upload (MyBookAPI)'
+2023-12-22 13:38:57.153 +01:00 [INF] Route matched with {action = "Upload", controller = "Image"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Upload(MyBook.Domain.Dto.ImageUploadRequestDto) on controller MyBookAPI.Controllers.ImageController (MyBookAPI).
+2023-12-22 13:39:04.395 +01:00 [INF] Executed DbCommand (18ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Images] ([FileDescription], [FileExtension], [FileName], [FilePath], [FileSizeInBytes])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2023-12-22 13:39:04.477 +01:00 [INF] Executing OkObjectResult, writing value of type 'MyBook.Domain.Models.Image'.
+2023-12-22 13:39:04.532 +01:00 [INF] Executed action MyBookAPI.Controllers.ImageController.Upload (MyBookAPI) in 7371.6881ms
+2023-12-22 13:39:04.542 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.ImageController.Upload (MyBookAPI)'
+2023-12-22 13:39:04.546 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Image/Upload multipart/form-data;+boundary=----WebKitFormBoundaryy3eU0TQBYIklSISh 503939 - 200 - application/json;+charset=utf-8 7461.1130ms
+2023-12-22 14:01:19.752 +01:00 [INF] Now listening on: https://localhost:7141
+2023-12-22 14:01:19.801 +01:00 [INF] Now listening on: http://localhost:5223
+2023-12-22 14:01:19.805 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 14:01:19.807 +01:00 [INF] Hosting environment: Development
+2023-12-22 14:01:19.808 +01:00 [INF] Content root path: C:\Users\user1\Home\MyBook\MyBookAPI
+2023-12-22 14:01:26.814 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2023-12-22 14:01:27.278 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 467.6430ms
+2023-12-22 14:01:27.295 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2023-12-22 14:01:27.296 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 14:01:27.306 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 10.6077ms
+2023-12-22 14:01:27.390 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 94.6192ms
+2023-12-22 14:01:27.542 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2023-12-22 14:01:27.791 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 250.7130ms
+2023-12-22 14:02:19.758 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Image/Upload multipart/form-data;+boundary=----WebKitFormBoundaryEoZYjUkKAhbkpQpA 116455
+2023-12-22 14:02:19.776 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.ImageController.Upload (MyBookAPI)'
+2023-12-22 14:02:19.809 +01:00 [INF] Route matched with {action = "Upload", controller = "Image"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Upload(MyBook.Domain.Dto.ImageUploadRequestDto) on controller MyBookAPI.Controllers.ImageController (MyBookAPI).
+2023-12-22 14:02:59.758 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2023-12-22 14:02:59.771 +01:00 [INF] Executed action MyBookAPI.Controllers.ImageController.Upload (MyBookAPI) in 39951.9723ms
+2023-12-22 14:02:59.776 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.ImageController.Upload (MyBookAPI)'
+2023-12-22 14:02:59.784 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Image/Upload multipart/form-data;+boundary=----WebKitFormBoundaryEoZYjUkKAhbkpQpA 116455 - 400 - text/plain;+charset=utf-8 40025.8682ms
+2023-12-22 14:03:06.425 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Image/Upload multipart/form-data;+boundary=----WebKitFormBoundarywOgZNNKi0EccPfAT 116455
+2023-12-22 14:03:06.436 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.ImageController.Upload (MyBookAPI)'
+2023-12-22 14:03:06.439 +01:00 [INF] Route matched with {action = "Upload", controller = "Image"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Upload(MyBook.Domain.Dto.ImageUploadRequestDto) on controller MyBookAPI.Controllers.ImageController (MyBookAPI).
+2023-12-22 14:03:40.422 +01:00 [INF] Now listening on: https://localhost:7141
+2023-12-22 14:03:40.543 +01:00 [INF] Now listening on: http://localhost:5223
+2023-12-22 14:03:40.549 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 14:03:40.556 +01:00 [INF] Hosting environment: Development
+2023-12-22 14:03:40.559 +01:00 [INF] Content root path: C:\Users\user1\Home\MyBook\MyBookAPI
+2023-12-22 14:03:46.696 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2023-12-22 14:03:47.059 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 367.2261ms
+2023-12-22 14:03:47.066 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 14:03:47.075 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2023-12-22 14:03:47.076 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 9.8440ms
+2023-12-22 14:03:47.174 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 99.0150ms
+2023-12-22 14:03:47.266 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2023-12-22 14:03:47.468 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 201.9980ms
+2023-12-22 14:04:26.737 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Image/Upload multipart/form-data;+boundary=----WebKitFormBoundarynFS3kLIKcq5zQIyf 64414
+2023-12-22 14:04:26.765 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.ImageController.Upload (MyBookAPI)'
+2023-12-22 14:04:26.809 +01:00 [INF] Route matched with {action = "Upload", controller = "Image"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Upload(MyBook.Domain.Dto.ImageUploadRequestDto) on controller MyBookAPI.Controllers.ImageController (MyBookAPI).
+2023-12-22 14:04:46.302 +01:00 [WRN] There are multiple relationships between 'Book' and 'Publisher' without configured foreign key properties. This will cause Entity Framework to create shadow properties on 'Book' with names dependent on the discovery order. Consider configuring the foreign key properties using the [ForeignKey] attribute or in 'OnModelCreating'.
+2023-12-22 14:04:46.547 +01:00 [WRN] The foreign key property 'Book.PublisherId1' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-22 14:04:46.550 +01:00 [WRN] The foreign key property 'Book.PublisherId2' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-22 14:04:46.607 +01:00 [WRN] No store type was specified for the decimal property 'Revenue' on entity type 'Publisher'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-12-22 14:04:48.258 +01:00 [INF] Executed DbCommand (114ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Images] ([FileDescription], [FileExtension], [FileName], [FilePath], [FileSizeInBytes])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2023-12-22 14:04:48.355 +01:00 [INF] Executing OkObjectResult, writing value of type 'MyBook.Domain.Models.Image'.
+2023-12-22 14:04:48.407 +01:00 [INF] Executed action MyBookAPI.Controllers.ImageController.Upload (MyBookAPI) in 21589.5886ms
+2023-12-22 14:04:48.413 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.ImageController.Upload (MyBookAPI)'
+2023-12-22 14:04:48.431 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Image/Upload multipart/form-data;+boundary=----WebKitFormBoundarynFS3kLIKcq5zQIyf 64414 - 200 - application/json;+charset=utf-8 21694.6088ms
+2023-12-22 16:25:50.647 +01:00 [INF] Now listening on: https://localhost:7141
+2023-12-22 16:25:50.746 +01:00 [INF] Now listening on: http://localhost:5223
+2023-12-22 16:25:50.752 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 16:25:50.754 +01:00 [INF] Hosting environment: Development
+2023-12-22 16:25:50.756 +01:00 [INF] Content root path: C:\Users\user1\Home\MyBook\MyBookAPI
+2023-12-22 16:25:59.248 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2023-12-22 16:26:00.017 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 774.0921ms
+2023-12-22 16:26:00.057 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 16:26:00.057 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2023-12-22 16:26:00.094 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 37.2347ms
+2023-12-22 16:26:00.307 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 250.0737ms
+2023-12-22 16:26:00.489 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2023-12-22 16:26:00.852 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 362.4212ms
+2023-12-22 16:26:16.704 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/api/Author/get-all-books - -
+2023-12-22 16:26:16.724 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthorController.GetAllAuthor (MyBookAPI)'
+2023-12-22 16:26:16.783 +01:00 [INF] Route matched with {action = "GetAllAuthor", controller = "Author"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAuthor() on controller MyBookAPI.Controllers.AuthorController (MyBookAPI).
+2023-12-22 16:26:18.512 +01:00 [WRN] There are multiple relationships between 'Book' and 'Publisher' without configured foreign key properties. This will cause Entity Framework to create shadow properties on 'Book' with names dependent on the discovery order. Consider configuring the foreign key properties using the [ForeignKey] attribute or in 'OnModelCreating'.
+2023-12-22 16:26:18.930 +01:00 [WRN] The foreign key property 'Book.PublisherId1' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-22 16:26:18.935 +01:00 [WRN] The foreign key property 'Book.PublisherId2' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-22 16:26:19.033 +01:00 [WRN] No store type was specified for the decimal property 'Revenue' on entity type 'Publisher'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-12-22 16:26:21.681 +01:00 [INF] Executed DbCommand (132ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[FirstName], [a].[LastName]
+FROM [Authors] AS [a]
+2023-12-22 16:26:22.022 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyBook.Domain.Models.Author, MyBook.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-22 16:26:22.062 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthorController.GetAllAuthor (MyBookAPI) in 5255.4252ms
+2023-12-22 16:26:22.083 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthorController.GetAllAuthor (MyBookAPI)'
+2023-12-22 16:26:22.125 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/api/Author/get-all-books - - - 200 - application/json;+charset=utf-8 5421.7347ms
+2023-12-22 16:26:37.404 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/api/Author/get-book-by-id/2 - -
+2023-12-22 16:26:37.415 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthorController.GetAuthorById (MyBookAPI)'
+2023-12-22 16:26:37.447 +01:00 [INF] Route matched with {action = "GetAuthorById", controller = "Author"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAuthorById(Int32) on controller MyBookAPI.Controllers.AuthorController (MyBookAPI).
+2023-12-22 16:26:37.830 +01:00 [INF] Executed DbCommand (58ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[FirstName], [a].[LastName]
+FROM [Authors] AS [a]
+WHERE [a].[Id] = @__id_0
+2023-12-22 16:26:37.842 +01:00 [INF] Executing OkObjectResult, writing value of type 'MyBook.Domain.Models.Author'.
+2023-12-22 16:26:37.847 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthorController.GetAuthorById (MyBookAPI) in 392.9987ms
+2023-12-22 16:26:37.853 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthorController.GetAuthorById (MyBookAPI)'
+2023-12-22 16:26:37.861 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/api/Author/get-book-by-id/2 - - - 200 - application/json;+charset=utf-8 457.9670ms
+2023-12-22 16:26:55.370 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/api/Publisher/get-all-publisher - -
+2023-12-22 16:26:55.377 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.PublisherController.GetAllPublisher (MyBookAPI)'
+2023-12-22 16:26:55.393 +01:00 [INF] Route matched with {action = "GetAllPublisher", controller = "Publisher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllPublisher() on controller MyBookAPI.Controllers.PublisherController (MyBookAPI).
+2023-12-22 16:26:55.589 +01:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Address], [p].[CEO], [p].[ContactInformation], [p].[Country], [p].[FoundingYear], [p].[Name], [p].[Revenue], [p].[Website]
+FROM [Publishers] AS [p]
+2023-12-22 16:26:55.672 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyBook.Domain.Models.Publisher, MyBook.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-22 16:26:55.715 +01:00 [INF] Executed action MyBookAPI.Controllers.PublisherController.GetAllPublisher (MyBookAPI) in 313.8401ms
+2023-12-22 16:26:55.720 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.PublisherController.GetAllPublisher (MyBookAPI)'
+2023-12-22 16:26:55.723 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/api/Publisher/get-all-publisher - - - 200 - application/json;+charset=utf-8 353.2111ms
+2023-12-22 16:27:16.271 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/api/Publisher/get-publisher-books-with-authors/1 - -
+2023-12-22 16:27:16.282 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.PublisherController.GetPublisherDetails (MyBookAPI)'
+2023-12-22 16:27:16.295 +01:00 [INF] Route matched with {action = "GetPublisherDetails", controller = "Publisher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPublisherDetails(Int32) on controller MyBookAPI.Controllers.PublisherController (MyBookAPI).
+2023-12-22 16:27:16.617 +01:00 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2023-12-22 16:27:16.674 +01:00 [INF] Executed DbCommand (37ms) [Parameters=[@__publisherId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Name], [t].[Id], [t0].[Title], [t0].[Id], [t0].[c], [t0].[Id0], [t0].[Id00]
+FROM (
+    SELECT TOP(1) [p].[Name], [p].[Id]
+    FROM [Publishers] AS [p]
+    WHERE [p].[Id] = @__publisherId_0
+) AS [t]
+LEFT JOIN (
+    SELECT [b].[Title], [b].[Id], [t1].[c], [t1].[Id] AS [Id0], [t1].[Id0] AS [Id00], [b].[PublisherId1]
+    FROM [Books] AS [b]
+    LEFT JOIN (
+        SELECT ([a].[FirstName] + N' ') + [a].[LastName] AS [c], [b0].[Id], [a].[Id] AS [Id0], [b0].[BookId]
+        FROM [BookAuthors] AS [b0]
+        INNER JOIN [Authors] AS [a] ON [b0].[AuthorId] = [a].[Id]
+    ) AS [t1] ON [b].[Id] = [t1].[BookId]
+) AS [t0] ON [t].[Id] = [t0].[PublisherId1]
+ORDER BY [t].[Id], [t0].[Id], [t0].[Id0]
+2023-12-22 16:27:16.702 +01:00 [INF] Executing OkObjectResult, writing value of type 'MyBook.Domain.Dto.PublisherWithBooksAndAuthorsDto'.
+2023-12-22 16:27:16.707 +01:00 [INF] Executed action MyBookAPI.Controllers.PublisherController.GetPublisherDetails (MyBookAPI) in 406.4685ms
+2023-12-22 16:27:16.714 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.PublisherController.GetPublisherDetails (MyBookAPI)'
+2023-12-22 16:27:16.717 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/api/Publisher/get-publisher-books-with-authors/1 - - - 200 - application/json;+charset=utf-8 445.5843ms
+2023-12-22 16:27:22.887 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/api/Publisher/get-publisher-books-with-authors/2 - -
+2023-12-22 16:27:22.890 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.PublisherController.GetPublisherDetails (MyBookAPI)'
+2023-12-22 16:27:22.894 +01:00 [INF] Route matched with {action = "GetPublisherDetails", controller = "Publisher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPublisherDetails(Int32) on controller MyBookAPI.Controllers.PublisherController (MyBookAPI).
+2023-12-22 16:27:22.978 +01:00 [INF] Executed DbCommand (41ms) [Parameters=[@__publisherId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Name], [t].[Id], [t0].[Title], [t0].[Id], [t0].[c], [t0].[Id0], [t0].[Id00]
+FROM (
+    SELECT TOP(1) [p].[Name], [p].[Id]
+    FROM [Publishers] AS [p]
+    WHERE [p].[Id] = @__publisherId_0
+) AS [t]
+LEFT JOIN (
+    SELECT [b].[Title], [b].[Id], [t1].[c], [t1].[Id] AS [Id0], [t1].[Id0] AS [Id00], [b].[PublisherId1]
+    FROM [Books] AS [b]
+    LEFT JOIN (
+        SELECT ([a].[FirstName] + N' ') + [a].[LastName] AS [c], [b0].[Id], [a].[Id] AS [Id0], [b0].[BookId]
+        FROM [BookAuthors] AS [b0]
+        INNER JOIN [Authors] AS [a] ON [b0].[AuthorId] = [a].[Id]
+    ) AS [t1] ON [b].[Id] = [t1].[BookId]
+) AS [t0] ON [t].[Id] = [t0].[PublisherId1]
+ORDER BY [t].[Id], [t0].[Id], [t0].[Id0]
+2023-12-22 16:27:22.991 +01:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2023-12-22 16:27:22.998 +01:00 [INF] Executed action MyBookAPI.Controllers.PublisherController.GetPublisherDetails (MyBookAPI) in 83.4437ms
+2023-12-22 16:27:23.002 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.PublisherController.GetPublisherDetails (MyBookAPI)'
+2023-12-22 16:27:23.006 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/api/Publisher/get-publisher-books-with-authors/2 - - - 404 - text/plain;+charset=utf-8 118.5437ms
+2023-12-22 16:27:33.845 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/api/Publisher/get-publisher-by-id/1 - -
+2023-12-22 16:27:33.848 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.PublisherController.GetPublisherById (MyBookAPI)'
+2023-12-22 16:27:33.860 +01:00 [INF] Route matched with {action = "GetPublisherById", controller = "Publisher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPublisherById(Int32) on controller MyBookAPI.Controllers.PublisherController (MyBookAPI).
+2023-12-22 16:27:33.898 +01:00 [INF] Executed DbCommand (13ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Address], [p].[CEO], [p].[ContactInformation], [p].[Country], [p].[FoundingYear], [p].[Name], [p].[Revenue], [p].[Website]
+FROM [Publishers] AS [p]
+WHERE [p].[Id] = @__id_0
+2023-12-22 16:27:33.906 +01:00 [INF] Executing OkObjectResult, writing value of type 'MyBook.Domain.Models.Publisher'.
+2023-12-22 16:27:33.911 +01:00 [INF] Executed action MyBookAPI.Controllers.PublisherController.GetPublisherById (MyBookAPI) in 43.7054ms
+2023-12-22 16:27:33.915 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.PublisherController.GetPublisherById (MyBookAPI)'
+2023-12-22 16:27:33.919 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/api/Publisher/get-publisher-by-id/1 - - - 200 - application/json;+charset=utf-8 74.0553ms
+2023-12-22 16:27:42.154 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/api/Publisher/get-all-publisher - -
+2023-12-22 16:27:42.161 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.PublisherController.GetAllPublisher (MyBookAPI)'
+2023-12-22 16:27:42.163 +01:00 [INF] Route matched with {action = "GetAllPublisher", controller = "Publisher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllPublisher() on controller MyBookAPI.Controllers.PublisherController (MyBookAPI).
+2023-12-22 16:27:42.200 +01:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Address], [p].[CEO], [p].[ContactInformation], [p].[Country], [p].[FoundingYear], [p].[Name], [p].[Revenue], [p].[Website]
+FROM [Publishers] AS [p]
+2023-12-22 16:27:42.209 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyBook.Domain.Models.Publisher, MyBook.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-22 16:27:42.213 +01:00 [INF] Executed action MyBookAPI.Controllers.PublisherController.GetAllPublisher (MyBookAPI) in 27.6893ms
+2023-12-22 16:27:42.225 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.PublisherController.GetAllPublisher (MyBookAPI)'
+2023-12-22 16:27:42.230 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/api/Publisher/get-all-publisher - - - 200 - application/json;+charset=utf-8 75.7970ms
+2023-12-22 16:27:52.227 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/api/Publisher/get-publisher-books-with-authors/5 - -
+2023-12-22 16:27:52.247 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.PublisherController.GetPublisherDetails (MyBookAPI)'
+2023-12-22 16:27:52.250 +01:00 [INF] Route matched with {action = "GetPublisherDetails", controller = "Publisher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPublisherDetails(Int32) on controller MyBookAPI.Controllers.PublisherController (MyBookAPI).
+2023-12-22 16:27:52.286 +01:00 [INF] Executed DbCommand (24ms) [Parameters=[@__publisherId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Name], [t].[Id], [t0].[Title], [t0].[Id], [t0].[c], [t0].[Id0], [t0].[Id00]
+FROM (
+    SELECT TOP(1) [p].[Name], [p].[Id]
+    FROM [Publishers] AS [p]
+    WHERE [p].[Id] = @__publisherId_0
+) AS [t]
+LEFT JOIN (
+    SELECT [b].[Title], [b].[Id], [t1].[c], [t1].[Id] AS [Id0], [t1].[Id0] AS [Id00], [b].[PublisherId1]
+    FROM [Books] AS [b]
+    LEFT JOIN (
+        SELECT ([a].[FirstName] + N' ') + [a].[LastName] AS [c], [b0].[Id], [a].[Id] AS [Id0], [b0].[BookId]
+        FROM [BookAuthors] AS [b0]
+        INNER JOIN [Authors] AS [a] ON [b0].[AuthorId] = [a].[Id]
+    ) AS [t1] ON [b].[Id] = [t1].[BookId]
+) AS [t0] ON [t].[Id] = [t0].[PublisherId1]
+ORDER BY [t].[Id], [t0].[Id], [t0].[Id0]
+2023-12-22 16:27:52.294 +01:00 [INF] Executing OkObjectResult, writing value of type 'MyBook.Domain.Dto.PublisherWithBooksAndAuthorsDto'.
+2023-12-22 16:27:52.298 +01:00 [INF] Executed action MyBookAPI.Controllers.PublisherController.GetPublisherDetails (MyBookAPI) in 39.6461ms
+2023-12-22 16:27:52.303 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.PublisherController.GetPublisherDetails (MyBookAPI)'
+2023-12-22 16:27:52.307 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/api/Publisher/get-publisher-books-with-authors/5 - - - 200 - application/json;+charset=utf-8 80.6155ms

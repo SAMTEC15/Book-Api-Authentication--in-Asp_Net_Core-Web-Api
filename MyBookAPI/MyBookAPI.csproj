@@ -27,4 +27,8 @@
     <ProjectReference Include="..\MyBook.Persistence\MyBook.Persistence.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Uploads\" />
+  </ItemGroup>
+
 </Project>

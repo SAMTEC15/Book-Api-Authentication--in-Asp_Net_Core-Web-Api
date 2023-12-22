@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using MyBook.Domain;
 using MyBook.Domain.Dto;
 using MyBook.Domain.Models;
 using MyBook.Persistence.Repositories.Interfaces;
@@ -8,9 +9,12 @@ namespace MyBook.Persistence.Repositories.Implementations
     public class AuthorRepository : IAuthorRepository
     {
         private readonly ApplicationDbContext _applicationDbContext;
+       // private readonly APIResponse _aPIResponse;
+
         public AuthorRepository(ApplicationDbContext applicationDbContext)
         {
             _applicationDbContext = applicationDbContext;
+           //_aPIResponse = aPIResponse;
         }
         public async Task<Author> AddAuthor(AuthorAddDto authorAddDto)
         {
