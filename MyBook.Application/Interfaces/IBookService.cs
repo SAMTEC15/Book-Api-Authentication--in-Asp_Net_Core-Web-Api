@@ -15,5 +15,6 @@ namespace MyBook.Application.Interfaces
         Task<BookAuthorsReturnDto> GetBookByIdAsync(int? id);
         Task<Book> UpdateBook(int id, BookAddDto books);
         Task<Book> DeleteBook(int? id);
+        Task<List<Book>> GetAllAsync(string? filterOn, string? filterQuery, string? sortBy, bool isAsending, int pageNumber, int pageSize);
     }
 }

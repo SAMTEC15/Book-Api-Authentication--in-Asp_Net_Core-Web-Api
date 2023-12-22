@@ -65,8 +65,74 @@ namespace MyBook.Persistence.Repositories
             return existingBook;
         }
         public async Task<IEnumerable<Book>> GetAllBooks() => await _applicationDbContext.Books.ToListAsync();
-        //public async Task<Book> GetById(int? id) => await _applicationDbContext.Books.FirstOrDefaultAsync(u => u.Id == id);
+        public async Task<List<Book>> GetAllBooksAsync(string? filterOn = null, string? filterQuery = null, string? sortBy = null,
+            bool isAscending = true, int pageNumber = 1, int pageSize = 10)
+        {
+            var books = _applicationDbContext.Books.Include("Publisher").AsQueryable();
 
+
+            if(string.IsNullOrWhiteSpace(filterOn) == false && string.IsNullOrWhiteSpace(filterQuery) == false)
+            {
+                if(filterOn.Equals("Title", StringComparison.OrdinalIgnoreCase))
+                {
+                    books = books.Where(u => u.Title.Contains(filterQuery));
+                }
+            }
+
+            if(string.IsNullOrWhiteSpace(sortBy) == false)
+            {
+                if(sortBy.Equals("Title", StringComparison.OrdinalIgnoreCase))
+                {
+                    books = isAscending ? books.OrderBy(u => u.Title) : books.OrderByDescending(u => u.Title);
+                }
+                else if(sortBy.Equals("Rate", StringComparison.OrdinalIgnoreCase))
+                {
+                    books = isAscending ? books.OrderBy(u => u.Rate) : books.OrderByDescending(u => u.Rate);
+                }
+                else if (sortBy.Equals("IsRead", StringComparison.OrdinalIgnoreCase))
+                {
+                    books = isAscending ? books.OrderBy(u => u.IsRead) : books.OrderByDescending(u => u.IsRead);
+                }               
+            }
+            var skipResults = (pageNumber - 1) * pageSize;
+            return await books.Skip(skipResults).Take(pageSize).ToListAsync();
+        }
+/*        public async Task<List<Book>> GetAllBooksAsync(
+    string? filterOn = null, string? filterQuery = null, string? sortBy = null,
+    bool isAscending = true, int pageNumber = 1, int pageSize = 10)
+        {
+            var query = _applicationDbContext.Books.AsQueryable();
+
+            // Include Author and Publisher related entities in the query
+            query = query.Include(book => book.Author)
+                         .Include(book => book.Publisher);
+
+            // Apply filtering based on filterOn and filterQuery
+            if (!string.IsNullOrWhiteSpace(filterOn) && !string.IsNullOrWhiteSpace(filterQuery))
+            {
+                if (filterOn.Equals("Title", StringComparison.OrdinalIgnoreCase))
+                {
+                    query = query.Where(book => book.Title.Contains(filterQuery));
+                }
+                // Add more filtering conditions for other properties if needed
+            }
+
+            // Apply sorting based on sortBy
+            if (!string.IsNullOrWhiteSpace(sortBy))
+            {
+                query = sortBy.ToLowerInvariant() switch
+                {
+                    "title" => isAscending ? query.OrderBy(book => book.Title) : query.OrderByDescending(book => book.Title),
+                    "rate" => isAscending ? query.OrderBy(book => book.Rate) : query.OrderByDescending(book => book.Rate),
+                    "isread" => isAscending ? query.OrderBy(book => book.IsRead) : query.OrderByDescending(book => book.IsRead),
+                    _ => query // Default behavior if sortBy doesn't match known properties
+                };
+            }
+
+            // Perform pagination and retrieve the result
+            var skipResults = (pageNumber - 1) * pageSize;
+            return await query.Skip(skipResults).Take(pageSize).ToListAsync();
+        }*/
         public async Task<BookAuthorsReturnDto> GetById(int? id)
         {
             var books = await _applicationDbContext.Books.Where(u => u.Id == id).Select(book => new BookAuthorsReturnDto

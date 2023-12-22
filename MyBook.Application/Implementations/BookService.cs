@@ -53,7 +53,7 @@ namespace MyBook.Application.Implementations
             if (getBook == null)
             {
                 return null;
-            }           
+            }
             return getBook;
         }
         public async Task<Book> UpdateBook(int id, BookAddDto books)
@@ -66,7 +66,7 @@ namespace MyBook.Application.Implementations
             var book = new Book
             {
                 Id = id,
-               // Author = books.Author,
+                // Author = books.Author,
                 CoverUrl = books.CoverUrl,
                 Description = books.Description,
                 Genre = books.Genre,
@@ -85,6 +85,11 @@ namespace MyBook.Application.Implementations
             }
             var book = await _booksRepository.DeleteById(id);
             return book;
+        }
+
+        public async Task<List<Book>> GetAllAsync(string? filterOn, string? filterQuery, string? sortBy, bool isAsending , int pageNumber, int pageSize)
+        {
+            return await _booksRepository.GetAllBooksAsync(filterOn, filterQuery, sortBy, isAsending, pageNumber, pageSize);
         }
     }
 }

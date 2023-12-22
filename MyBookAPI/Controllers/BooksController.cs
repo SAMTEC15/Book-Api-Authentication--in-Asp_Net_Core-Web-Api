@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using MyBook.Application.Implementations;
 using MyBook.Application.Interfaces;
 using MyBook.Domain.Dto;
 using MyBook.Domain.Models;
@@ -66,6 +67,18 @@ namespace MyBookAPI.Controllers
             }
            
             return Ok(book);
+        }
+        [HttpGet("get/all/books/by/sorting/filter")]
+        public async Task<IActionResult> GetAll([FromQuery] string? filterOn, [FromQuery] string? filterQuery,
+         [FromQuery] string? sortBy, [FromQuery] bool? isAscending, [FromQuery] int pageNumber = 1, int pageSize = 10)
+        {
+            if (ModelState.IsValid)
+            {
+                var bookDomainModel = await _bookService.GetAllAsync(filterOn, filterQuery, sortBy, isAscending ?? true, pageNumber, pageSize);
+                //Map Domain Model to Dto
+                return Ok(bookDomainModel);
+            }
+            return BadRequest(ModelState);
         }
     }
 }
