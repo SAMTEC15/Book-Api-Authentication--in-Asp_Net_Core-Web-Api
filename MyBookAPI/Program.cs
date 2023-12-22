@@ -11,10 +11,12 @@ using Serilog;
 var builder = WebApplication.CreateBuilder(args);
 
 //builder.Services.AddLogging();
-Log.Logger = new LoggerConfiguration().MinimumLevel.Information()
+var logger = new LoggerConfiguration().MinimumLevel.Information()
     .WriteTo.Console()
     .WriteTo.File("Logs/LogInfomation-.txt", rollingInterval: RollingInterval.Day)
     .CreateLogger();
+//builder.Logging.ClearProviders();
+//builder.Logging.AddSerilog(logger);
 
 // Add services to the container.
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConn")));

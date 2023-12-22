@@ -1,0 +1,27 @@
+2023-12-22 01:50:11.965 +01:00 [INF] Now listening on: https://localhost:7141
+2023-12-22 01:50:12.051 +01:00 [INF] Now listening on: http://localhost:5223
+2023-12-22 01:50:12.060 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 01:50:12.065 +01:00 [INF] Hosting environment: Development
+2023-12-22 01:50:12.069 +01:00 [INF] Content root path: C:\Users\user1\Home\MyBook\MyBookAPI
+2023-12-22 01:50:24.776 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2023-12-22 01:50:25.668 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 01:50:25.680 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2023-12-22 01:50:25.703 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 929.8177ms
+2023-12-22 01:50:25.724 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 54.3882ms
+2023-12-22 01:50:25.883 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 210.2717ms
+2023-12-22 01:50:26.080 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2023-12-22 01:50:26.596 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 515.4176ms
+2023-12-22 01:50:43.810 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/api/Author/get-all-books - -
+2023-12-22 01:50:43.830 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthorController.GetAllAuthor (MyBookAPI)'
+2023-12-22 01:50:43.881 +01:00 [INF] Route matched with {action = "GetAllAuthor", controller = "Author"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAuthor() on controller MyBookAPI.Controllers.AuthorController (MyBookAPI).
+2023-12-22 01:50:45.411 +01:00 [WRN] There are multiple relationships between 'Book' and 'Publisher' without configured foreign key properties. This will cause Entity Framework to create shadow properties on 'Book' with names dependent on the discovery order. Consider configuring the foreign key properties using the [ForeignKey] attribute or in 'OnModelCreating'.
+2023-12-22 01:50:45.750 +01:00 [WRN] The foreign key property 'Book.PublisherId1' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-22 01:50:45.756 +01:00 [WRN] The foreign key property 'Book.PublisherId2' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-22 01:50:45.839 +01:00 [WRN] No store type was specified for the decimal property 'Revenue' on entity type 'Publisher'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-12-22 01:50:47.928 +01:00 [INF] Executed DbCommand (133ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[FirstName], [a].[LastName]
+FROM [Authors] AS [a]
+2023-12-22 01:50:48.190 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyBook.Domain.Models.Author, MyBook.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-22 01:50:48.218 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthorController.GetAllAuthor (MyBookAPI) in 4319.3874ms
+2023-12-22 01:50:48.225 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthorController.GetAllAuthor (MyBookAPI)'
+2023-12-22 01:50:48.251 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/api/Author/get-all-books - - - 200 - application/json;+charset=utf-8 4441.8136ms
