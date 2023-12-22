@@ -1524,3 +1524,74 @@ ORDER BY [t].[Id], [t0].[Id], [t0].[Id0]
 2023-12-22 16:27:52.298 +01:00 [INF] Executed action MyBookAPI.Controllers.PublisherController.GetPublisherDetails (MyBookAPI) in 39.6461ms
 2023-12-22 16:27:52.303 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.PublisherController.GetPublisherDetails (MyBookAPI)'
 2023-12-22 16:27:52.307 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/api/Publisher/get-publisher-books-with-authors/5 - - - 200 - application/json;+charset=utf-8 80.6155ms
+2023-12-22 16:56:39.649 +01:00 [INF] Now listening on: https://localhost:7141
+2023-12-22 16:56:39.759 +01:00 [INF] Now listening on: http://localhost:5223
+2023-12-22 16:56:39.766 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 16:56:39.771 +01:00 [INF] Hosting environment: Development
+2023-12-22 16:56:39.775 +01:00 [INF] Content root path: C:\Users\user1\Home\MyBook\MyBookAPI
+2023-12-22 16:56:45.910 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2023-12-22 16:56:46.768 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2023-12-22 16:56:46.820 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 16:56:46.834 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 933.8143ms
+2023-12-22 16:56:46.974 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 142.3852ms
+2023-12-22 16:56:47.153 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 385.7715ms
+2023-12-22 16:56:47.365 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2023-12-22 16:56:47.861 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 495.9737ms
+2023-12-22 18:23:00.487 +01:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-22 18:23:01.209 +01:00 [INF] Now listening on: https://localhost:7141
+2023-12-22 18:23:01.213 +01:00 [INF] Now listening on: http://localhost:5223
+2023-12-22 18:23:01.217 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-22 18:23:01.219 +01:00 [INF] Hosting environment: Development
+2023-12-22 18:23:01.221 +01:00 [INF] Content root path: C:\Users\user1\Home\MyBook\MyBookAPI
+2023-12-22 18:23:11.525 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2023-12-22 18:23:12.138 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2023-12-22 18:23:12.138 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2023-12-22 18:23:12.140 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 619.6308ms
+2023-12-22 18:23:12.153 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 14.7357ms
+2023-12-22 18:23:12.270 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 131.7738ms
+2023-12-22 18:23:12.441 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2023-12-22 18:23:12.779 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 337.4779ms
+2023-12-22 18:24:01.540 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/api/Author/get-author-with-books-by-id/1 - -
+2023-12-22 18:24:01.658 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthorController.GetBookWithAuthor (MyBookAPI)'
+2023-12-22 18:24:01.698 +01:00 [INF] Route matched with {action = "GetBookWithAuthor", controller = "Author"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBookWithAuthor(Int32) on controller MyBookAPI.Controllers.AuthorController (MyBookAPI).
+2023-12-22 18:24:02.631 +01:00 [WRN] There are multiple relationships between 'Book' and 'Publisher' without configured foreign key properties. This will cause Entity Framework to create shadow properties on 'Book' with names dependent on the discovery order. Consider configuring the foreign key properties using the [ForeignKey] attribute or in 'OnModelCreating'.
+2023-12-22 18:24:02.835 +01:00 [WRN] The foreign key property 'Book.PublisherId1' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-22 18:24:02.837 +01:00 [WRN] The foreign key property 'Book.PublisherId2' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-22 18:24:02.880 +01:00 [WRN] No store type was specified for the decimal property 'Revenue' on entity type 'Publisher'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-12-22 18:24:04.233 +01:00 [INF] Executed DbCommand (86ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[LastName], [t].[FirstName], [t].[Id], [t0].[Title], [t0].[Id], [t0].[Id0]
+FROM (
+    SELECT TOP(1) [a].[LastName], [a].[FirstName], [a].[Id]
+    FROM [Authors] AS [a]
+    WHERE [a].[Id] = @__id_0
+) AS [t]
+LEFT JOIN (
+    SELECT [b0].[Title], [b].[Id], [b0].[Id] AS [Id0], [b].[AuthorId]
+    FROM [BookAuthors] AS [b]
+    INNER JOIN [Books] AS [b0] ON [b].[BookId] = [b0].[Id]
+) AS [t0] ON [t].[Id] = [t0].[AuthorId]
+ORDER BY [t].[Id], [t0].[Id]
+2023-12-22 18:24:04.280 +01:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2023-12-22 18:24:04.290 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthorController.GetBookWithAuthor (MyBookAPI) in 2580.765ms
+2023-12-22 18:24:04.294 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthorController.GetBookWithAuthor (MyBookAPI)'
+2023-12-22 18:24:04.311 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/api/Author/get-author-with-books-by-id/1 - - - 404 - text/plain;+charset=utf-8 2770.7969ms
+2023-12-22 18:24:12.359 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/api/Author/get-author-with-books-by-id/2 - -
+2023-12-22 18:24:12.368 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthorController.GetBookWithAuthor (MyBookAPI)'
+2023-12-22 18:24:12.370 +01:00 [INF] Route matched with {action = "GetBookWithAuthor", controller = "Author"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBookWithAuthor(Int32) on controller MyBookAPI.Controllers.AuthorController (MyBookAPI).
+2023-12-22 18:24:12.401 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[LastName], [t].[FirstName], [t].[Id], [t0].[Title], [t0].[Id], [t0].[Id0]
+FROM (
+    SELECT TOP(1) [a].[LastName], [a].[FirstName], [a].[Id]
+    FROM [Authors] AS [a]
+    WHERE [a].[Id] = @__id_0
+) AS [t]
+LEFT JOIN (
+    SELECT [b0].[Title], [b].[Id], [b0].[Id] AS [Id0], [b].[AuthorId]
+    FROM [BookAuthors] AS [b]
+    INNER JOIN [Books] AS [b0] ON [b].[BookId] = [b0].[Id]
+) AS [t0] ON [t].[Id] = [t0].[AuthorId]
+ORDER BY [t].[Id], [t0].[Id]
+2023-12-22 18:24:12.417 +01:00 [INF] Executing OkObjectResult, writing value of type 'MyBook.Domain.Dto.AuthorWithBooksDto'.
+2023-12-22 18:24:12.426 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthorController.GetBookWithAuthor (MyBookAPI) in 52.2632ms
+2023-12-22 18:24:12.428 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthorController.GetBookWithAuthor (MyBookAPI)'
+2023-12-22 18:24:12.430 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/api/Author/get-author-with-books-by-id/2 - - - 200 - application/json;+charset=utf-8 71.2359ms

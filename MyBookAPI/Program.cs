@@ -1,4 +1,6 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using MyBook.Application.Implementations;
 using MyBook.Application.Interfaces;
 using MyBook.Common.GlobalException;
@@ -7,6 +9,7 @@ using MyBook.Persistence.Repositories;
 using MyBook.Persistence.Repositories.Implementations;
 using MyBook.Persistence.Repositories.Interfaces;
 using Serilog;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -33,6 +36,21 @@ builder.Services.AddScoped<IAuthenticationRepository, AuthenticationRepository>(
 builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
 builder.Services.AddScoped<IEmailService, EmailService>();
 
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters()
+    {
+        ValidateActor = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = builder.Configuration["JwtSettings:ValidIssuer"],
+        ValidAudience = builder.Configuration["JwtSettings:ValidAudience"],
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JwtSettings:Key"]))
+    };
+});
+builder.Services.AddAuthorization();
 //builder.Services.AddTransient<GlobalExceptionHandlingMiddleware>();
 
 builder.Services.AddHttpContextAccessor();
@@ -52,6 +70,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 //app.UseMiddleware<GlobalExceptionHandlingMiddleware>();
 
