@@ -1,0 +1,42 @@
+2024-01-15 01:09:54.593 +01:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-15 01:09:55.282 +01:00 [INF] Now listening on: https://localhost:7141
+2024-01-15 01:09:55.285 +01:00 [INF] Now listening on: http://localhost:5223
+2024-01-15 01:09:55.291 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-15 01:09:55.293 +01:00 [INF] Hosting environment: Development
+2024-01-15 01:09:55.295 +01:00 [INF] Content root path: C:\Users\user1\Documents\Incase\MyBook\MyBookAPI
+2024-01-15 01:10:01.452 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger - -
+2024-01-15 01:10:02.000 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger - - - 301 0 - 555.0595ms
+2024-01-15 01:10:02.018 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2024-01-15 01:10:02.497 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 478.6984ms
+2024-01-15 01:10:02.508 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2024-01-15 01:10:02.504 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/swagger-ui.css - -
+2024-01-15 01:10:02.503 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/swagger-ui-standalone-preset.js - -
+2024-01-15 01:10:02.504 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/swagger-ui-bundle.js - -
+2024-01-15 01:10:02.644 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2024-01-15 01:10:02.723 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 74.3198ms
+2024-01-15 01:10:02.809 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-01-15 01:10:02.820 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-01-15 01:10:02.842 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/swagger-ui.css - - - 200 144929 text/css 339.9172ms
+2024-01-15 01:10:02.862 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 358.1314ms
+2024-01-15 01:10:02.866 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-01-15 01:10:02.873 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 369.7620ms
+2024-01-15 01:10:05.194 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2686.4347ms
+2024-01-15 01:10:05.313 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2024-01-15 01:10:05.499 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/favicon-32x32.png - -
+2024-01-15 01:10:05.510 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-01-15 01:10:05.771 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/favicon-32x32.png - - - 200 628 image/png 271.1756ms
+2024-01-15 01:10:05.854 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 541.5210ms
+2024-01-15 01:10:20.970 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/api/Books/get/all/books - -
+2024-01-15 01:10:21.215 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.BooksController.GetAllBooks (MyBookAPI)'
+2024-01-15 01:10:21.298 +01:00 [INF] Route matched with {action = "GetAllBooks", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[MyBook.Domain.Models.Book]] GetAllBooks() on controller MyBookAPI.Controllers.BooksController (MyBookAPI).
+2024-01-15 01:10:23.003 +01:00 [WRN] There are multiple relationships between 'Book' and 'Publisher' without configured foreign key properties. This will cause Entity Framework to create shadow properties on 'Book' with names dependent on the discovery order. Consider configuring the foreign key properties using the [ForeignKey] attribute or in 'OnModelCreating'.
+2024-01-15 01:10:23.322 +01:00 [WRN] The foreign key property 'Book.PublisherId1' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2024-01-15 01:10:23.327 +01:00 [WRN] The foreign key property 'Book.PublisherId2' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2024-01-15 01:10:23.385 +01:00 [WRN] No store type was specified for the decimal property 'Revenue' on entity type 'Publisher'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-01-15 01:10:25.305 +01:00 [INF] Executed DbCommand (102ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[CoverUrl], [b].[DateAdded], [b].[DateRead], [b].[Description], [b].[Genre], [b].[IsRead], [b].[PublisherId], [b].[PublisherId1], [b].[PublisherId2], [b].[Rate], [b].[Title]
+FROM [Books] AS [b]
+2024-01-15 01:10:25.545 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyBook.Domain.Models.Book, MyBook.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-15 01:10:25.600 +01:00 [INF] Executed action MyBookAPI.Controllers.BooksController.GetAllBooks (MyBookAPI) in 4278.8682ms
+2024-01-15 01:10:25.608 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.BooksController.GetAllBooks (MyBookAPI)'
+2024-01-15 01:10:25.795 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/api/Books/get/all/books - - - 200 - application/json;+charset=utf-8 4825.2166ms

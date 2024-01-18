@@ -2,14 +2,6 @@
 using MyBook.Domain.Dto;
 using MyBook.Domain.Models;
 using MyBook.Persistence.Repositories.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-using static System.Reflection.Metadata.BlobBuilder;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace MyBook.Persistence.Repositories
 {
@@ -169,6 +161,23 @@ namespace MyBook.Persistence.Repositories
 
             await _applicationDbContext.SaveChangesAsync();
             return book;
+        }
+
+        public async Task<IEnumerable<Book>> Search(string title, string coverUrl)
+        {
+            IQueryable<Book> query =  _applicationDbContext.Books;
+            if(string.IsNullOrEmpty(title))
+            {
+                return null;
+            }
+            query = query.Where(u  => u.Title.Contains(title));
+            if(coverUrl == null)
+            {
+                return null;
+            }
+            //query = query.Where(u => u.Genre.Contains(coverUrl));   
+            query = query.Where(u => u.CoverUrl == coverUrl);
+            return await query.ToListAsync();
         }
     }
 }

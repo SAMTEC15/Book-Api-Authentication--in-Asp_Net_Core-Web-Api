@@ -1,11 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
 using MyBook.Domain.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MyBook.Common.Utilities
 {
@@ -14,7 +9,7 @@ namespace MyBook.Common.Utilities
         public static void SeedRolesAndSuperAdmin(IServiceProvider serviceProvider)
         {
             var roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
-            var managerManager = serviceProvider.GetRequiredService<UserManager<AppUser>>();
+            var managerManager = serviceProvider.GetRequiredService<UserManager<ApplicationUser>>();
 
             // Seed roles
             if (!roleManager.RoleExistsAsync("SuperAdmin").Result)

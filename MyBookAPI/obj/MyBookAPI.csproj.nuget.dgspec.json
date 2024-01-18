@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user1\\Home\\MyBook\\MyBookAPI\\MyBookAPI.csproj": {}
+    "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBookAPI\\MyBookAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user1\\Home\\MyBook\\MyBook.Application\\MyBook.Application.csproj": {
+    "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBook.Application\\MyBook.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Home\\MyBook\\MyBook.Application\\MyBook.Application.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBook.Application\\MyBook.Application.csproj",
         "projectName": "MyBook.Application",
-        "projectPath": "C:\\Users\\user1\\Home\\MyBook\\MyBook.Application\\MyBook.Application.csproj",
+        "projectPath": "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBook.Application\\MyBook.Application.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Home\\MyBook\\MyBook.Application\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBook.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\user1\\Home\\MyBook\\MyBook.Domain\\MyBook.Domain.csproj": {
-                "projectPath": "C:\\Users\\user1\\Home\\MyBook\\MyBook.Domain\\MyBook.Domain.csproj"
+              "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBook.Domain\\MyBook.Domain.csproj": {
+                "projectPath": "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBook.Domain\\MyBook.Domain.csproj"
               },
-              "C:\\Users\\user1\\Home\\MyBook\\MyBook.Persistence\\MyBook.Persistence.csproj": {
-                "projectPath": "C:\\Users\\user1\\Home\\MyBook\\MyBook.Persistence\\MyBook.Persistence.csproj"
+              "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBook.Persistence\\MyBook.Persistence.csproj": {
+                "projectPath": "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBook.Persistence\\MyBook.Persistence.csproj"
               }
             }
           }
@@ -52,6 +52,10 @@
               "version": "[4.3.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.0, )"
             },
@@ -106,14 +110,14 @@
         }
       }
     },
-    "C:\\Users\\user1\\Home\\MyBook\\MyBook.Common\\MyBook.Common.csproj": {
+    "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBook.Common\\MyBook.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Home\\MyBook\\MyBook.Common\\MyBook.Common.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBook.Common\\MyBook.Common.csproj",
         "projectName": "MyBook.Common",
-        "projectPath": "C:\\Users\\user1\\Home\\MyBook\\MyBook.Common\\MyBook.Common.csproj",
+        "projectPath": "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBook.Common\\MyBook.Common.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Home\\MyBook\\MyBook.Common\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBook.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -130,8 +134,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\user1\\Home\\MyBook\\MyBook.Domain\\MyBook.Domain.csproj": {
-                "projectPath": "C:\\Users\\user1\\Home\\MyBook\\MyBook.Domain\\MyBook.Domain.csproj"
+              "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBook.Domain\\MyBook.Domain.csproj": {
+                "projectPath": "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBook.Domain\\MyBook.Domain.csproj"
               }
             }
           }
@@ -147,6 +151,10 @@
           "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.0, )"
             },
@@ -187,14 +195,14 @@
         }
       }
     },
-    "C:\\Users\\user1\\Home\\MyBook\\MyBook.Domain\\MyBook.Domain.csproj": {
+    "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBook.Domain\\MyBook.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Home\\MyBook\\MyBook.Domain\\MyBook.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBook.Domain\\MyBook.Domain.csproj",
         "projectName": "MyBook.Domain",
-        "projectPath": "C:\\Users\\user1\\Home\\MyBook\\MyBook.Domain\\MyBook.Domain.csproj",
+        "projectPath": "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBook.Domain\\MyBook.Domain.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Home\\MyBook\\MyBook.Domain\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBook.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -224,6 +232,10 @@
           "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.0, )"
             },
@@ -282,14 +294,14 @@
         }
       }
     },
-    "C:\\Users\\user1\\Home\\MyBook\\MyBook.Persistence\\MyBook.Persistence.csproj": {
+    "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBook.Persistence\\MyBook.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Home\\MyBook\\MyBook.Persistence\\MyBook.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBook.Persistence\\MyBook.Persistence.csproj",
         "projectName": "MyBook.Persistence",
-        "projectPath": "C:\\Users\\user1\\Home\\MyBook\\MyBook.Persistence\\MyBook.Persistence.csproj",
+        "projectPath": "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBook.Persistence\\MyBook.Persistence.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Home\\MyBook\\MyBook.Persistence\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBook.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -306,8 +318,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\user1\\Home\\MyBook\\MyBook.Domain\\MyBook.Domain.csproj": {
-                "projectPath": "C:\\Users\\user1\\Home\\MyBook\\MyBook.Domain\\MyBook.Domain.csproj"
+              "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBook.Domain\\MyBook.Domain.csproj": {
+                "projectPath": "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBook.Domain\\MyBook.Domain.csproj"
               }
             }
           }
@@ -323,6 +335,10 @@
           "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.0, )"
             },
@@ -377,14 +393,14 @@
         }
       }
     },
-    "C:\\Users\\user1\\Home\\MyBook\\MyBookAPI\\MyBookAPI.csproj": {
+    "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBookAPI\\MyBookAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Home\\MyBook\\MyBookAPI\\MyBookAPI.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBookAPI\\MyBookAPI.csproj",
         "projectName": "MyBookAPI",
-        "projectPath": "C:\\Users\\user1\\Home\\MyBook\\MyBookAPI\\MyBookAPI.csproj",
+        "projectPath": "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBookAPI\\MyBookAPI.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Home\\MyBook\\MyBookAPI\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBookAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -401,14 +417,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\user1\\Home\\MyBook\\MyBook.Application\\MyBook.Application.csproj": {
-                "projectPath": "C:\\Users\\user1\\Home\\MyBook\\MyBook.Application\\MyBook.Application.csproj"
+              "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBook.Application\\MyBook.Application.csproj": {
+                "projectPath": "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBook.Application\\MyBook.Application.csproj"
               },
-              "C:\\Users\\user1\\Home\\MyBook\\MyBook.Common\\MyBook.Common.csproj": {
-                "projectPath": "C:\\Users\\user1\\Home\\MyBook\\MyBook.Common\\MyBook.Common.csproj"
+              "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBook.Common\\MyBook.Common.csproj": {
+                "projectPath": "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBook.Common\\MyBook.Common.csproj"
               },
-              "C:\\Users\\user1\\Home\\MyBook\\MyBook.Persistence\\MyBook.Persistence.csproj": {
-                "projectPath": "C:\\Users\\user1\\Home\\MyBook\\MyBook.Persistence\\MyBook.Persistence.csproj"
+              "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBook.Persistence\\MyBook.Persistence.csproj": {
+                "projectPath": "C:\\Users\\user1\\Documents\\Incase\\MyBook\\MyBook.Persistence\\MyBook.Persistence.csproj"
               }
             }
           }
@@ -424,6 +440,10 @@
           "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.0, )"
             },
