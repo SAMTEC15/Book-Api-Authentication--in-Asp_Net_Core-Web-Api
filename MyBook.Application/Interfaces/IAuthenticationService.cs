@@ -11,5 +11,7 @@ namespace MyBook.Application.Interfaces
     public interface IAuthenticationService
     {
         Task<ApiResponse<string>> Register(RegisterDto registerDto);
+        Task<ApiResponse<AuthResultDto>> Login(LoginDto loginDto);
+        Task<ApiResponse<AuthResultDto>> RefreshToken(TokenRequestDto tokenRequest);
     }
 }

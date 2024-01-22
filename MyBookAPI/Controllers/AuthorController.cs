@@ -1,12 +1,15 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using MyBook.Application.Interfaces;
 using MyBook.Domain.Dto;
+using MyBook.Domain.Models;
 using MyBook.Persistence.Repositories;
 
 namespace MyBookAPI.Controllers
 {
+    [Authorize(Roles = UserRole.Author)]
     [Route("api/[controller]")]
     [ApiController]
     public class AuthorController : ControllerBase

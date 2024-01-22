@@ -1,0 +1,881 @@
+2024-01-19 15:15:54.835 +01:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-19 15:15:55.629 +01:00 [INF] Now listening on: https://localhost:7141
+2024-01-19 15:15:55.640 +01:00 [INF] Now listening on: http://localhost:5223
+2024-01-19 15:15:55.646 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-19 15:15:55.657 +01:00 [INF] Hosting environment: Development
+2024-01-19 15:15:55.659 +01:00 [INF] Content root path: C:\Users\user1\Documents\Incase\MyBook\MyBookAPI
+2024-01-19 15:16:03.280 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2024-01-19 15:16:03.899 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 627.3678ms
+2024-01-19 15:16:03.947 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2024-01-19 15:16:03.949 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2024-01-19 15:16:04.128 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 179.3668ms
+2024-01-19 15:16:04.293 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 345.7185ms
+2024-01-19 15:16:04.480 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2024-01-19 15:16:04.907 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 427.6287ms
+2024-01-19 15:56:06.205 +01:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-19 15:56:06.687 +01:00 [INF] Now listening on: https://localhost:7141
+2024-01-19 15:56:06.700 +01:00 [INF] Now listening on: http://localhost:5223
+2024-01-19 15:56:06.704 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-19 15:56:06.706 +01:00 [INF] Hosting environment: Development
+2024-01-19 15:56:06.708 +01:00 [INF] Content root path: C:\Users\user1\Documents\Incase\MyBook\MyBookAPI
+2024-01-19 15:56:14.929 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2024-01-19 15:56:15.688 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 758.1617ms
+2024-01-19 15:56:15.744 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2024-01-19 15:56:15.745 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2024-01-19 15:56:15.814 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 69.2302ms
+2024-01-19 15:56:16.047 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 302.2655ms
+2024-01-19 15:56:16.241 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2024-01-19 15:56:16.790 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 549.3487ms
+2024-01-19 16:00:51.117 +01:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-19 16:00:51.505 +01:00 [INF] Now listening on: https://localhost:7141
+2024-01-19 16:00:51.508 +01:00 [INF] Now listening on: http://localhost:5223
+2024-01-19 16:00:51.512 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-19 16:00:51.513 +01:00 [INF] Hosting environment: Development
+2024-01-19 16:00:51.514 +01:00 [INF] Content root path: C:\Users\user1\Documents\Incase\MyBook\MyBookAPI
+2024-01-19 16:01:00.934 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2024-01-19 16:01:01.356 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 423.8898ms
+2024-01-19 16:01:01.362 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2024-01-19 16:01:01.370 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2024-01-19 16:01:01.375 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 13.0095ms
+2024-01-19 16:01:01.452 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 82.3815ms
+2024-01-19 16:01:01.567 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2024-01-19 16:01:01.771 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 204.1165ms
+2024-01-19 16:02:35.618 +01:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-19 16:02:36.078 +01:00 [INF] Now listening on: https://localhost:7141
+2024-01-19 16:02:36.082 +01:00 [INF] Now listening on: http://localhost:5223
+2024-01-19 16:02:36.088 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-19 16:02:36.090 +01:00 [INF] Hosting environment: Development
+2024-01-19 16:02:36.092 +01:00 [INF] Content root path: C:\Users\user1\Documents\Incase\MyBook\MyBookAPI
+2024-01-19 16:02:48.076 +01:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-19 16:02:48.381 +01:00 [INF] Now listening on: https://localhost:7141
+2024-01-19 16:02:48.383 +01:00 [INF] Now listening on: http://localhost:5223
+2024-01-19 16:02:48.385 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-19 16:02:48.387 +01:00 [INF] Hosting environment: Development
+2024-01-19 16:02:48.388 +01:00 [INF] Content root path: C:\Users\user1\Documents\Incase\MyBook\MyBookAPI
+2024-01-19 16:03:01.517 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2024-01-19 16:03:02.108 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2024-01-19 16:03:02.113 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2024-01-19 16:03:02.119 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 606.0801ms
+2024-01-19 16:03:02.119 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 11.5771ms
+2024-01-19 16:03:02.224 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 114.9582ms
+2024-01-19 16:03:02.340 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2024-01-19 16:03:02.589 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 248.4446ms
+2024-01-19 16:05:04.159 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Authentication/User-login application/json 47
+2024-01-19 16:05:04.293 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2024-01-19 16:05:04.367 +01:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MyBook.Domain.Dto.LoginDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2024-01-19 16:05:18.066 +01:00 [WRN] There are multiple relationships between 'Book' and 'Publisher' without configured foreign key properties. This will cause Entity Framework to create shadow properties on 'Book' with names dependent on the discovery order. Consider configuring the foreign key properties using the [ForeignKey] attribute or in 'OnModelCreating'.
+2024-01-19 16:05:18.347 +01:00 [WRN] The foreign key property 'Book.PublisherId1' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2024-01-19 16:05:18.350 +01:00 [WRN] The foreign key property 'Book.PublisherId2' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2024-01-19 16:05:18.448 +01:00 [WRN] No store type was specified for the decimal property 'Revenue' on entity type 'Publisher'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-01-19 16:05:20.301 +01:00 [INF] Executed DbCommand (112ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-01-19 16:05:20.369 +01:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-01-19 16:05:20.385 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI) in 16006.2844ms
+2024-01-19 16:05:20.388 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2024-01-19 16:05:20.405 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Authentication/User-login application/json 47 - 400 - application/problem+json;+charset=utf-8 16247.1246ms
+2024-01-19 16:05:44.795 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Authentication/User-login application/json 54
+2024-01-19 16:05:44.801 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2024-01-19 16:05:44.803 +01:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MyBook.Domain.Dto.LoginDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2024-01-19 16:05:44.819 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-01-19 16:05:44.829 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI) in 22.2564ms
+2024-01-19 16:05:44.831 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2024-01-19 16:05:44.833 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7141/api/Authentication/User-login application/json 54 - 400 - application/problem+json;+charset=utf-8 37.5153ms
+2024-01-19 16:06:19.291 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Authentication/User-login application/json 60
+2024-01-19 16:06:19.294 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2024-01-19 16:06:19.296 +01:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MyBook.Domain.Dto.LoginDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2024-01-19 16:06:37.544 +01:00 [INF] Executed DbCommand (54ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-01-19 16:06:47.125 +01:00 [INF] Executed DbCommand (9ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Boolean), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshTokens] ([DateAdded], [DateExpire], [IsRevoked], [JwtId], [Token], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-01-19 16:07:09.100 +01:00 [INF] Executing OkObjectResult, writing value of type 'MyBook.Domain.ApiResponse`1[[MyBook.Domain.Dto.AuthResultDto, MyBook.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-19 16:07:13.935 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI) in 54637.4404ms
+2024-01-19 16:07:13.937 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2024-01-19 16:07:13.939 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7141/api/Authentication/User-login application/json 60 - 200 - application/json;+charset=utf-8 54647.6501ms
+2024-01-19 16:12:13.054 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Authentication/User-login application/json 60
+2024-01-19 16:12:13.058 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2024-01-19 16:12:13.062 +01:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MyBook.Domain.Dto.LoginDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2024-01-19 16:12:13.229 +01:00 [INF] Executed DbCommand (20ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-01-19 16:12:13.387 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Boolean), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshTokens] ([DateAdded], [DateExpire], [IsRevoked], [JwtId], [Token], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-01-19 16:12:13.393 +01:00 [INF] Executing OkObjectResult, writing value of type 'MyBook.Domain.ApiResponse`1[[MyBook.Domain.Dto.AuthResultDto, MyBook.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-19 16:12:13.396 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI) in 331.0265ms
+2024-01-19 16:12:13.398 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2024-01-19 16:12:13.400 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7141/api/Authentication/User-login application/json 60 - 200 - application/json;+charset=utf-8 346.7975ms
+2024-01-19 16:13:37.631 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token{
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiU2FtMTIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjJmZTcyZjc5LTBmZTktNDkxNS1iZDA5LTcxY2U4MDNmMzRiOSIsImVtYWlsIjoidGVzdEB0ZXN0LmNvbSIsInN1YiI6InRlc3RAdGVzdC5jb20iLCJqdGkiOiJiYjRkZWZkNS05MDU3LTQzYzItYTBhMC1hYzMzMzMyZDQwODEiLCJleHAiOjE3MDU2NzcxOTMsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcxNDEvIiwiYXVkIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NzE0MS8ifQ.qYgXzzxpm9Y9MCfXYaq4ygO5Pij7iDufLpiTLjkO3ic",
+        "refreshToken": "8c8a2e4b-bcc9-4552-a40a-3bb353d59765-ea2860cb-acee-4db9-9e6f-2ae0f6ec6db0",
+        "expireAt": "2024-01-19T15:13:13Z"
+    }, application/json 690
+2024-01-19 16:13:37.636 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token{
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiU2FtMTIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjJmZTcyZjc5LTBmZTktNDkxNS1iZDA5LTcxY2U4MDNmMzRiOSIsImVtYWlsIjoidGVzdEB0ZXN0LmNvbSIsInN1YiI6InRlc3RAdGVzdC5jb20iLCJqdGkiOiJiYjRkZWZkNS05MDU3LTQzYzItYTBhMC1hYzMzMzMyZDQwODEiLCJleHAiOjE3MDU2NzcxOTMsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcxNDEvIiwiYXVkIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NzE0MS8ifQ.qYgXzzxpm9Y9MCfXYaq4ygO5Pij7iDufLpiTLjkO3ic",
+        "refreshToken": "8c8a2e4b-bcc9-4552-a40a-3bb353d59765-ea2860cb-acee-4db9-9e6f-2ae0f6ec6db0",
+        "expireAt": "2024-01-19T15:13:13Z"
+    }, application/json 690 - 404 0 - 5.7885ms
+2024-01-19 16:14:13.079 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 690
+2024-01-19 16:14:13.091 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 16:14:13.103 +01:00 [INF] Route matched with {action = "Refresh", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(MyBook.Domain.Dto.TokenRequestDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2024-01-19 16:14:21.616 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI) in 8505.1305ms
+2024-01-19 16:14:21.623 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 16:14:21.634 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10500: Signature validation failed. No security keys were provided to validate the signature.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at MyBook.Application.Implementations.AuthenticationService.VerifyAndGenerateTokenAsync(TokenRequestDto tokenRequest) in C:\Users\user1\Documents\Incase\MyBook\MyBook.Application\Implementations\AuthenticationService.cs:line 138
+   at MyBook.Application.Implementations.AuthenticationService.RefreshToken(TokenRequestDto tokenRequest) in C:\Users\user1\Documents\Incase\MyBook\MyBook.Application\Implementations\AuthenticationService.cs:line 126
+   at MyBookAPI.Controllers.AuthenticationController.Refresh(TokenRequestDto tokenRequestDto) in C:\Users\user1\Documents\Incase\MyBook\MyBookAPI\Controllers\AuthenticationController.cs:line 49
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-01-19 16:14:21.744 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 690 - 500 - text/plain;+charset=utf-8 8665.1940ms
+2024-01-19 16:14:31.124 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 690
+2024-01-19 16:14:31.281 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 16:14:31.723 +01:00 [INF] Route matched with {action = "Refresh", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(MyBook.Domain.Dto.TokenRequestDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2024-01-19 16:15:33.283 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI) in 61556.6827ms
+2024-01-19 16:15:33.302 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 16:15:33.328 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10500: Signature validation failed. No security keys were provided to validate the signature.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at MyBook.Application.Implementations.AuthenticationService.VerifyAndGenerateTokenAsync(TokenRequestDto tokenRequest) in C:\Users\user1\Documents\Incase\MyBook\MyBook.Application\Implementations\AuthenticationService.cs:line 138
+   at MyBook.Application.Implementations.AuthenticationService.RefreshToken(TokenRequestDto tokenRequest) in C:\Users\user1\Documents\Incase\MyBook\MyBook.Application\Implementations\AuthenticationService.cs:line 126
+   at MyBookAPI.Controllers.AuthenticationController.Refresh(TokenRequestDto tokenRequestDto) in C:\Users\user1\Documents\Incase\MyBook\MyBookAPI\Controllers\AuthenticationController.cs:line 49
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-01-19 16:15:33.361 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 690 - 500 - text/plain;+charset=utf-8 62236.6111ms
+2024-01-19 16:18:12.887 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 690
+2024-01-19 16:18:12.892 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 16:18:12.896 +01:00 [INF] Route matched with {action = "Refresh", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(MyBook.Domain.Dto.TokenRequestDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2024-01-19 16:19:30.106 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI) in 77203.3711ms
+2024-01-19 16:19:30.122 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 16:19:30.146 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10500: Signature validation failed. No security keys were provided to validate the signature.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at MyBook.Application.Implementations.AuthenticationService.VerifyAndGenerateTokenAsync(TokenRequestDto tokenRequest) in C:\Users\user1\Documents\Incase\MyBook\MyBook.Application\Implementations\AuthenticationService.cs:line 138
+   at MyBook.Application.Implementations.AuthenticationService.RefreshToken(TokenRequestDto tokenRequest) in C:\Users\user1\Documents\Incase\MyBook\MyBook.Application\Implementations\AuthenticationService.cs:line 126
+   at MyBookAPI.Controllers.AuthenticationController.Refresh(TokenRequestDto tokenRequestDto) in C:\Users\user1\Documents\Incase\MyBook\MyBookAPI\Controllers\AuthenticationController.cs:line 49
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-01-19 16:19:30.173 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 690 - 500 - text/plain;+charset=utf-8 77286.2262ms
+2024-01-19 16:31:52.568 +01:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-19 16:31:53.304 +01:00 [INF] Now listening on: https://localhost:7141
+2024-01-19 16:31:53.318 +01:00 [INF] Now listening on: http://localhost:5223
+2024-01-19 16:31:53.329 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-19 16:31:53.332 +01:00 [INF] Hosting environment: Development
+2024-01-19 16:31:53.334 +01:00 [INF] Content root path: C:\Users\user1\Documents\Incase\MyBook\MyBookAPI
+2024-01-19 16:32:03.003 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2024-01-19 16:32:03.814 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2024-01-19 16:32:03.821 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2024-01-19 16:32:03.821 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 825.2285ms
+2024-01-19 16:32:03.840 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 25.7583ms
+2024-01-19 16:32:04.093 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 272.6058ms
+2024-01-19 16:32:04.338 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2024-01-19 16:32:04.789 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 451.4540ms
+2024-01-19 16:32:30.962 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Authentication/User-login application/json 60
+2024-01-19 16:32:31.075 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2024-01-19 16:32:31.147 +01:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MyBook.Domain.Dto.LoginDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2024-01-19 16:32:33.021 +01:00 [WRN] There are multiple relationships between 'Book' and 'Publisher' without configured foreign key properties. This will cause Entity Framework to create shadow properties on 'Book' with names dependent on the discovery order. Consider configuring the foreign key properties using the [ForeignKey] attribute or in 'OnModelCreating'.
+2024-01-19 16:32:33.442 +01:00 [WRN] The foreign key property 'Book.PublisherId1' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2024-01-19 16:32:33.447 +01:00 [WRN] The foreign key property 'Book.PublisherId2' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2024-01-19 16:32:33.533 +01:00 [WRN] No store type was specified for the decimal property 'Revenue' on entity type 'Publisher'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-01-19 16:32:36.103 +01:00 [INF] Executed DbCommand (165ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-01-19 16:32:37.495 +01:00 [INF] Executed DbCommand (15ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Boolean), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshTokens] ([DateAdded], [DateExpire], [IsRevoked], [JwtId], [Token], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-01-19 16:32:37.597 +01:00 [INF] Executing OkObjectResult, writing value of type 'MyBook.Domain.ApiResponse`1[[MyBook.Domain.Dto.AuthResultDto, MyBook.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-19 16:32:37.644 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI) in 6477.8946ms
+2024-01-19 16:32:37.654 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2024-01-19 16:32:37.683 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7141/api/Authentication/User-login application/json 60 - 200 - application/json;+charset=utf-8 6720.7520ms
+2024-01-19 16:33:34.666 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 692
+2024-01-19 16:33:34.681 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 16:33:34.695 +01:00 [INF] Route matched with {action = "Refresh", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(MyBook.Domain.Dto.TokenRequestDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2024-01-19 16:34:08.096 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI) in 33393.5755ms
+2024-01-19 16:34:08.100 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 16:34:08.111 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10500: Signature validation failed. No security keys were provided to validate the signature.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at MyBook.Application.Implementations.AuthenticationService.VerifyAndGenerateTokenAsync(TokenRequestDto tokenRequest) in C:\Users\user1\Documents\Incase\MyBook\MyBook.Application\Implementations\AuthenticationService.cs:line 144
+   at MyBook.Application.Implementations.AuthenticationService.RefreshToken(TokenRequestDto tokenRequest) in C:\Users\user1\Documents\Incase\MyBook\MyBook.Application\Implementations\AuthenticationService.cs:line 126
+   at MyBookAPI.Controllers.AuthenticationController.Refresh(TokenRequestDto tokenRequestDto) in C:\Users\user1\Documents\Incase\MyBook\MyBookAPI\Controllers\AuthenticationController.cs:line 49
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-01-19 16:34:08.210 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 692 - 500 - text/plain;+charset=utf-8 33544.3823ms
+2024-01-19 16:49:15.115 +01:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-19 16:49:16.663 +01:00 [INF] Now listening on: https://localhost:7141
+2024-01-19 16:49:16.871 +01:00 [INF] Now listening on: http://localhost:5223
+2024-01-19 16:49:16.878 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-19 16:49:16.902 +01:00 [INF] Hosting environment: Development
+2024-01-19 16:49:16.905 +01:00 [INF] Content root path: C:\Users\user1\Documents\Incase\MyBook\MyBookAPI
+2024-01-19 16:49:20.973 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 692
+2024-01-19 16:49:21.209 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 16:49:21.269 +01:00 [INF] Route matched with {action = "Refresh", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(MyBook.Domain.Dto.TokenRequestDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2024-01-19 16:49:28.522 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI) in 7238.7401ms
+2024-01-19 16:49:28.532 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 16:49:28.543 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: IDX10500: Signature validation failed. No security keys were provided to validate the signature.
+   at MyBook.Application.Implementations.AuthenticationService.VerifyAndGenerateTokenAsync(TokenRequestDto tokenRequest) in C:\Users\user1\Documents\Incase\MyBook\MyBook.Application\Implementations\AuthenticationService.cs:line 193
+   at MyBook.Application.Implementations.AuthenticationService.RefreshToken(TokenRequestDto tokenRequest) in C:\Users\user1\Documents\Incase\MyBook\MyBook.Application\Implementations\AuthenticationService.cs:line 126
+   at MyBookAPI.Controllers.AuthenticationController.Refresh(TokenRequestDto tokenRequestDto) in C:\Users\user1\Documents\Incase\MyBook\MyBookAPI\Controllers\AuthenticationController.cs:line 49
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-01-19 16:49:28.647 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 692 - 500 - text/plain;+charset=utf-8 7678.8918ms
+2024-01-19 16:49:31.517 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2024-01-19 16:49:32.207 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 689.3285ms
+2024-01-19 16:49:32.275 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2024-01-19 16:49:32.315 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 39.9966ms
+2024-01-19 16:49:32.398 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2024-01-19 16:49:32.518 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 119.8115ms
+2024-01-19 16:49:32.945 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2024-01-19 16:49:33.455 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 509.7364ms
+2024-01-19 16:58:57.782 +01:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-19 16:58:58.416 +01:00 [INF] Now listening on: https://localhost:7141
+2024-01-19 16:58:58.420 +01:00 [INF] Now listening on: http://localhost:5223
+2024-01-19 16:58:58.426 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-19 16:58:58.429 +01:00 [INF] Hosting environment: Development
+2024-01-19 16:58:58.433 +01:00 [INF] Content root path: C:\Users\user1\Documents\Incase\MyBook\MyBookAPI
+2024-01-19 16:59:09.272 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2024-01-19 16:59:10.187 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 928.7592ms
+2024-01-19 16:59:10.294 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2024-01-19 16:59:10.294 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2024-01-19 16:59:10.325 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 30.3821ms
+2024-01-19 16:59:10.573 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 278.6781ms
+2024-01-19 16:59:10.825 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2024-01-19 16:59:11.213 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 387.9821ms
+2024-01-19 16:59:29.678 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Authentication/User-login application/json 60
+2024-01-19 16:59:29.801 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2024-01-19 16:59:29.858 +01:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MyBook.Domain.Dto.LoginDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2024-01-19 16:59:31.673 +01:00 [WRN] There are multiple relationships between 'Book' and 'Publisher' without configured foreign key properties. This will cause Entity Framework to create shadow properties on 'Book' with names dependent on the discovery order. Consider configuring the foreign key properties using the [ForeignKey] attribute or in 'OnModelCreating'.
+2024-01-19 16:59:32.105 +01:00 [WRN] The foreign key property 'Book.PublisherId1' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2024-01-19 16:59:32.110 +01:00 [WRN] The foreign key property 'Book.PublisherId2' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2024-01-19 16:59:32.202 +01:00 [WRN] No store type was specified for the decimal property 'Revenue' on entity type 'Publisher'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-01-19 16:59:34.530 +01:00 [INF] Executed DbCommand (143ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-01-19 16:59:35.891 +01:00 [INF] Executed DbCommand (21ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Boolean), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshTokens] ([DateAdded], [DateExpire], [IsRevoked], [JwtId], [Token], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-01-19 16:59:35.984 +01:00 [INF] Executing OkObjectResult, writing value of type 'MyBook.Domain.ApiResponse`1[[MyBook.Domain.Dto.AuthResultDto, MyBook.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-19 16:59:36.029 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI) in 6152.2902ms
+2024-01-19 16:59:36.037 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2024-01-19 16:59:36.061 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7141/api/Authentication/User-login application/json 60 - 200 - application/json;+charset=utf-8 6383.0006ms
+2024-01-19 17:00:02.404 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 690
+2024-01-19 17:00:02.415 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 17:00:02.427 +01:00 [INF] Route matched with {action = "Refresh", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(MyBook.Domain.Dto.TokenRequestDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2024-01-19 17:00:46.977 +01:00 [INF] Executed DbCommand (69ms) [Parameters=[@__tokenRequest_RefreshToken_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[DateAdded], [r].[DateExpire], [r].[IsRevoked], [r].[JwtId], [r].[Token], [r].[UserId]
+FROM [RefreshTokens] AS [r]
+WHERE [r].[Token] = @__tokenRequest_RefreshToken_0
+2024-01-19 17:00:58.683 +01:00 [INF] Executed DbCommand (56ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-01-19 17:01:20.946 +01:00 [INF] Executing OkObjectResult, writing value of type 'MyBook.Domain.Dto.AuthResultDto'.
+2024-01-19 17:01:20.952 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI) in 78518.1708ms
+2024-01-19 17:01:20.955 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 17:01:20.960 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 690 - 200 - application/json;+charset=utf-8 78555.6986ms
+2024-01-19 23:05:28.089 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7141/api/Publisher/get-all-publisher application/json 220
+2024-01-19 23:05:28.144 +01:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '1/18/2024 1:33:41 PM', Current time: '1/19/2024 10:05:28 PM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2024-01-19 23:05:28.216 +01:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '1/18/2024 1:33:41 PM', Current time: '1/19/2024 10:05:28 PM'.
+2024-01-19 23:05:28.239 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-01-19 23:05:28.262 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-01-19 23:05:28.266 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7141/api/Publisher/get-all-publisher application/json 220 - 401 0 - 200.9061ms
+2024-01-19 23:05:42.206 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Publisher/add-publisher application/json 220
+2024-01-19 23:05:42.229 +01:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '1/18/2024 1:33:41 PM', Current time: '1/19/2024 10:05:42 PM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2024-01-19 23:05:42.236 +01:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '1/18/2024 1:33:41 PM', Current time: '1/19/2024 10:05:42 PM'.
+2024-01-19 23:05:42.245 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-01-19 23:05:42.249 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-01-19 23:05:42.252 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7141/api/Publisher/add-publisher application/json 220 - 401 0 - 46.7085ms
+2024-01-19 23:05:52.572 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Authentication/User-login application/json 60
+2024-01-19 23:05:52.575 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2024-01-19 23:05:52.578 +01:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MyBook.Domain.Dto.LoginDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2024-01-19 23:05:52.798 +01:00 [INF] Executed DbCommand (20ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-01-19 23:05:53.059 +01:00 [INF] Executed DbCommand (12ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Boolean), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshTokens] ([DateAdded], [DateExpire], [IsRevoked], [JwtId], [Token], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-01-19 23:05:53.068 +01:00 [INF] Executing OkObjectResult, writing value of type 'MyBook.Domain.ApiResponse`1[[MyBook.Domain.Dto.AuthResultDto, MyBook.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-19 23:05:53.073 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI) in 489.9471ms
+2024-01-19 23:05:53.078 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2024-01-19 23:05:53.082 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7141/api/Authentication/User-login application/json 60 - 200 - application/json;+charset=utf-8 510.6203ms
+2024-01-19 23:06:29.711 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7141/api/Publisher/get-all-publisher application/json 220
+2024-01-19 23:06:29.732 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.PublisherController.GetAllPublisher (MyBookAPI)'
+2024-01-19 23:06:29.743 +01:00 [INF] Route matched with {action = "GetAllPublisher", controller = "Publisher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllPublisher() on controller MyBookAPI.Controllers.PublisherController (MyBookAPI).
+2024-01-19 23:06:29.783 +01:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Address], [p].[CEO], [p].[ContactInformation], [p].[Country], [p].[FoundingYear], [p].[Name], [p].[Revenue], [p].[Website]
+FROM [Publishers] AS [p]
+2024-01-19 23:06:29.873 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyBook.Domain.Models.Publisher, MyBook.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-19 23:06:29.902 +01:00 [INF] Executed action MyBookAPI.Controllers.PublisherController.GetAllPublisher (MyBookAPI) in 153.8308ms
+2024-01-19 23:06:29.907 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.PublisherController.GetAllPublisher (MyBookAPI)'
+2024-01-19 23:06:29.910 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7141/api/Publisher/get-all-publisher application/json 220 - 200 - application/json;+charset=utf-8 199.8329ms
+2024-01-19 23:06:42.892 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Publisher/add-publisher application/json 220
+2024-01-19 23:06:42.897 +01:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '1/18/2024 1:33:41 PM', Current time: '1/19/2024 10:06:42 PM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2024-01-19 23:06:42.908 +01:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '1/18/2024 1:33:41 PM', Current time: '1/19/2024 10:06:42 PM'.
+2024-01-19 23:06:42.912 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-01-19 23:06:42.916 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-01-19 23:06:42.921 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7141/api/Publisher/add-publisher application/json 220 - 401 0 - 28.6661ms
+2024-01-19 23:06:49.368 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Publisher/add-publisher application/json 220
+2024-01-19 23:06:49.372 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.PublisherController.AddPublisher (MyBookAPI)'
+2024-01-19 23:06:49.383 +01:00 [INF] Route matched with {action = "AddPublisher", controller = "Publisher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddPublisher(MyBook.Domain.Dto.PublisherAddDto) on controller MyBookAPI.Controllers.PublisherController (MyBookAPI).
+2024-01-19 23:06:49.460 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-01-19 23:06:49.463 +01:00 [INF] Executed DbCommand (15ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p7='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Publishers] ([Address], [CEO], [ContactInformation], [Country], [FoundingYear], [Name], [Revenue], [Website])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+2024-01-19 23:06:49.466 +01:00 [INF] Executed action MyBookAPI.Controllers.PublisherController.AddPublisher (MyBookAPI) in 76.8545ms
+2024-01-19 23:06:49.476 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.PublisherController.AddPublisher (MyBookAPI)'
+2024-01-19 23:06:49.480 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7141/api/Publisher/add-publisher application/json 220 - 200 - text/plain;+charset=utf-8 111.6356ms
+2024-01-19 23:06:55.937 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7141/api/Publisher/get-all-publisher application/json 220
+2024-01-19 23:06:55.992 +01:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '1/19/2024 10:06:53 PM', Current time: '1/19/2024 10:06:55 PM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2024-01-19 23:06:56.007 +01:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '1/19/2024 10:06:53 PM', Current time: '1/19/2024 10:06:55 PM'.
+2024-01-19 23:06:56.016 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-01-19 23:06:56.021 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-01-19 23:06:56.040 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7141/api/Publisher/get-all-publisher application/json 220 - 401 0 - 103.2444ms
+2024-01-19 23:07:06.634 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7141/api/Publisher/get-all-publisher application/json 220
+2024-01-19 23:07:06.638 +01:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '1/19/2024 10:06:53 PM', Current time: '1/19/2024 10:07:06 PM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2024-01-19 23:07:06.646 +01:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '1/19/2024 10:06:53 PM', Current time: '1/19/2024 10:07:06 PM'.
+2024-01-19 23:07:06.650 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-01-19 23:07:06.653 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-01-19 23:07:06.657 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7141/api/Publisher/get-all-publisher application/json 220 - 401 0 - 22.9229ms
+2024-01-19 23:07:17.369 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Authentication/User-login application/json 60
+2024-01-19 23:07:17.372 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2024-01-19 23:07:17.382 +01:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MyBook.Domain.Dto.LoginDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2024-01-19 23:07:17.401 +01:00 [INF] Executed DbCommand (8ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-01-19 23:07:17.634 +01:00 [INF] Executed DbCommand (14ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Boolean), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshTokens] ([DateAdded], [DateExpire], [IsRevoked], [JwtId], [Token], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-01-19 23:07:17.646 +01:00 [INF] Executing OkObjectResult, writing value of type 'MyBook.Domain.ApiResponse`1[[MyBook.Domain.Dto.AuthResultDto, MyBook.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-19 23:07:17.651 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI) in 262.9256ms
+2024-01-19 23:07:17.656 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2024-01-19 23:07:17.661 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7141/api/Authentication/User-login application/json 60 - 200 - application/json;+charset=utf-8 291.6968ms
+2024-01-19 23:07:38.949 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7141/api/Publisher/get-all-publisher application/json 220
+2024-01-19 23:07:38.963 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.PublisherController.GetAllPublisher (MyBookAPI)'
+2024-01-19 23:07:38.966 +01:00 [INF] Route matched with {action = "GetAllPublisher", controller = "Publisher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllPublisher() on controller MyBookAPI.Controllers.PublisherController (MyBookAPI).
+2024-01-19 23:07:38.982 +01:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Address], [p].[CEO], [p].[ContactInformation], [p].[Country], [p].[FoundingYear], [p].[Name], [p].[Revenue], [p].[Website]
+FROM [Publishers] AS [p]
+2024-01-19 23:07:38.989 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyBook.Domain.Models.Publisher, MyBook.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-19 23:07:38.994 +01:00 [INF] Executed action MyBookAPI.Controllers.PublisherController.GetAllPublisher (MyBookAPI) in 22.7382ms
+2024-01-19 23:07:38.998 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.PublisherController.GetAllPublisher (MyBookAPI)'
+2024-01-19 23:07:39.002 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7141/api/Publisher/get-all-publisher application/json 220 - 200 - application/json;+charset=utf-8 53.1152ms
+2024-01-19 23:09:08.462 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 691
+2024-01-19 23:09:08.474 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 23:09:08.477 +01:00 [INF] Route matched with {action = "Refresh", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(MyBook.Domain.Dto.TokenRequestDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2024-01-19 23:09:14.491 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI) in 6010.0393ms
+2024-01-19 23:09:14.496 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 23:09:14.503 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '1/19/2024 10:08:17 PM', Current time: '1/19/2024 10:09:14 PM'.
+   at MyBook.Application.Implementations.AuthenticationService.VerifyAndGenerateTokenAsync(TokenRequestDto tokenRequest) in C:\Users\user1\Documents\Incase\MyBook\MyBook.Application\Implementations\AuthenticationService.cs:line 193
+   at MyBook.Application.Implementations.AuthenticationService.RefreshToken(TokenRequestDto tokenRequest) in C:\Users\user1\Documents\Incase\MyBook\MyBook.Application\Implementations\AuthenticationService.cs:line 126
+   at MyBookAPI.Controllers.AuthenticationController.Refresh(TokenRequestDto tokenRequestDto) in C:\Users\user1\Documents\Incase\MyBook\MyBookAPI\Controllers\AuthenticationController.cs:line 49
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-01-19 23:09:14.553 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 691 - 500 - text/plain;+charset=utf-8 6090.6412ms
+2024-01-19 23:23:33.602 +01:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-19 23:23:34.188 +01:00 [INF] Now listening on: https://localhost:7141
+2024-01-19 23:23:34.191 +01:00 [INF] Now listening on: http://localhost:5223
+2024-01-19 23:23:34.196 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-19 23:23:34.200 +01:00 [INF] Hosting environment: Development
+2024-01-19 23:23:34.204 +01:00 [INF] Content root path: C:\Users\user1\Documents\Incase\MyBook\MyBookAPI
+2024-01-19 23:23:43.661 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2024-01-19 23:23:44.301 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2024-01-19 23:23:44.301 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2024-01-19 23:23:44.307 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 652.4084ms
+2024-01-19 23:23:44.362 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 61.4827ms
+2024-01-19 23:23:44.483 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 181.7176ms
+2024-01-19 23:23:44.656 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2024-01-19 23:23:45.091 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 434.6480ms
+2024-01-19 23:24:01.510 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Authentication/User-login application/json 60
+2024-01-19 23:24:01.640 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2024-01-19 23:24:01.700 +01:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MyBook.Domain.Dto.LoginDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2024-01-19 23:24:03.548 +01:00 [WRN] There are multiple relationships between 'Book' and 'Publisher' without configured foreign key properties. This will cause Entity Framework to create shadow properties on 'Book' with names dependent on the discovery order. Consider configuring the foreign key properties using the [ForeignKey] attribute or in 'OnModelCreating'.
+2024-01-19 23:24:04.005 +01:00 [WRN] The foreign key property 'Book.PublisherId1' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2024-01-19 23:24:04.010 +01:00 [WRN] The foreign key property 'Book.PublisherId2' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2024-01-19 23:24:04.096 +01:00 [WRN] No store type was specified for the decimal property 'Revenue' on entity type 'Publisher'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-01-19 23:24:06.493 +01:00 [INF] Executed DbCommand (143ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-01-19 23:24:07.814 +01:00 [INF] Executed DbCommand (15ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Boolean), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshTokens] ([DateAdded], [DateExpire], [IsRevoked], [JwtId], [Token], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-01-19 23:24:07.906 +01:00 [INF] Executing OkObjectResult, writing value of type 'MyBook.Domain.ApiResponse`1[[MyBook.Domain.Dto.AuthResultDto, MyBook.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-19 23:24:07.966 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI) in 6247.2122ms
+2024-01-19 23:24:07.975 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2024-01-19 23:24:08.000 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7141/api/Authentication/User-login application/json 60 - 200 - application/json;+charset=utf-8 6489.2096ms
+2024-01-19 23:24:50.665 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 691
+2024-01-19 23:24:50.680 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 23:24:50.696 +01:00 [INF] Route matched with {action = "Refresh", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(MyBook.Domain.Dto.TokenRequestDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2024-01-19 23:24:56.891 +01:00 [INF] Executing OkObjectResult, writing value of type 'MyBook.Domain.ApiResponse`1[[MyBook.Domain.Dto.AuthResultDto, MyBook.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-19 23:24:56.895 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI) in 6190.3218ms
+2024-01-19 23:24:56.900 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 23:24:56.906 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 691 - 200 - application/json;+charset=utf-8 6240.3911ms
+2024-01-19 23:25:23.449 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 690
+2024-01-19 23:25:23.458 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 23:25:23.462 +01:00 [INF] Route matched with {action = "Refresh", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(MyBook.Domain.Dto.TokenRequestDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2024-01-19 23:25:32.218 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI) in 8748.7905ms
+2024-01-19 23:25:32.225 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 23:25:32.237 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at MyBook.Application.Implementations.AuthenticationService.VerifyAndGenerateTokenAsync(TokenRequestDto tokenRequest) in C:\Users\user1\Documents\Incase\MyBook\MyBook.Application\Implementations\AuthenticationService.cs:line 197
+   at MyBook.Application.Implementations.AuthenticationService.RefreshToken(TokenRequestDto tokenRequest) in C:\Users\user1\Documents\Incase\MyBook\MyBook.Application\Implementations\AuthenticationService.cs:line 128
+   at MyBookAPI.Controllers.AuthenticationController.Refresh(TokenRequestDto tokenRequestDto) in C:\Users\user1\Documents\Incase\MyBook\MyBookAPI\Controllers\AuthenticationController.cs:line 49
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-01-19 23:25:32.345 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 690 - 500 - text/plain;+charset=utf-8 8895.3678ms
+2024-01-19 23:25:56.315 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 691
+2024-01-19 23:25:56.329 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 23:25:56.332 +01:00 [INF] Route matched with {action = "Refresh", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(MyBook.Domain.Dto.TokenRequestDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2024-01-19 23:25:56.801 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI) in 463.497ms
+2024-01-19 23:25:56.808 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 23:25:56.815 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '1/19/2024 10:25:07 PM', Current time: '1/19/2024 10:25:56 PM'.
+   at MyBook.Application.Implementations.AuthenticationService.VerifyAndGenerateTokenAsync(TokenRequestDto tokenRequest) in C:\Users\user1\Documents\Incase\MyBook\MyBook.Application\Implementations\AuthenticationService.cs:line 197
+   at MyBook.Application.Implementations.AuthenticationService.RefreshToken(TokenRequestDto tokenRequest) in C:\Users\user1\Documents\Incase\MyBook\MyBook.Application\Implementations\AuthenticationService.cs:line 128
+   at MyBookAPI.Controllers.AuthenticationController.Refresh(TokenRequestDto tokenRequestDto) in C:\Users\user1\Documents\Incase\MyBook\MyBookAPI\Controllers\AuthenticationController.cs:line 49
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-01-19 23:25:56.873 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 691 - 500 - text/plain;+charset=utf-8 557.2464ms
+2024-01-19 23:27:54.132 +01:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-19 23:27:54.691 +01:00 [INF] Now listening on: https://localhost:7141
+2024-01-19 23:27:54.696 +01:00 [INF] Now listening on: http://localhost:5223
+2024-01-19 23:27:54.702 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-19 23:27:54.706 +01:00 [INF] Hosting environment: Development
+2024-01-19 23:27:54.710 +01:00 [INF] Content root path: C:\Users\user1\Documents\Incase\MyBook\MyBookAPI
+2024-01-19 23:28:03.048 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2024-01-19 23:28:03.913 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2024-01-19 23:28:03.918 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 883.1629ms
+2024-01-19 23:28:03.930 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2024-01-19 23:28:03.956 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 43.7284ms
+2024-01-19 23:28:04.113 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 183.1503ms
+2024-01-19 23:28:04.431 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2024-01-19 23:28:04.877 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 446.4373ms
+2024-01-19 23:28:09.975 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 691
+2024-01-19 23:28:10.113 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 23:28:10.187 +01:00 [INF] Route matched with {action = "Refresh", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(MyBook.Domain.Dto.TokenRequestDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2024-01-19 23:28:11.894 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI) in 1691.8523ms
+2024-01-19 23:28:11.905 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 23:28:11.917 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '1/19/2024 10:25:07 PM', Current time: '1/19/2024 10:28:11 PM'.
+   at MyBook.Application.Implementations.AuthenticationService.VerifyAndGenerateTokenAsync(TokenRequestDto tokenRequest) in C:\Users\user1\Documents\Incase\MyBook\MyBook.Application\Implementations\AuthenticationService.cs:line 197
+   at MyBook.Application.Implementations.AuthenticationService.RefreshToken(TokenRequestDto tokenRequest) in C:\Users\user1\Documents\Incase\MyBook\MyBook.Application\Implementations\AuthenticationService.cs:line 128
+   at MyBookAPI.Controllers.AuthenticationController.Refresh(TokenRequestDto tokenRequestDto) in C:\Users\user1\Documents\Incase\MyBook\MyBookAPI\Controllers\AuthenticationController.cs:line 49
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-01-19 23:28:12.029 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 691 - 500 - text/plain;+charset=utf-8 2053.7112ms
+2024-01-19 23:28:30.880 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Authentication/User-login application/json 60
+2024-01-19 23:28:30.892 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2024-01-19 23:28:30.904 +01:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MyBook.Domain.Dto.LoginDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2024-01-19 23:28:32.156 +01:00 [WRN] There are multiple relationships between 'Book' and 'Publisher' without configured foreign key properties. This will cause Entity Framework to create shadow properties on 'Book' with names dependent on the discovery order. Consider configuring the foreign key properties using the [ForeignKey] attribute or in 'OnModelCreating'.
+2024-01-19 23:28:32.646 +01:00 [WRN] The foreign key property 'Book.PublisherId1' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2024-01-19 23:28:32.651 +01:00 [WRN] The foreign key property 'Book.PublisherId2' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2024-01-19 23:28:32.752 +01:00 [WRN] No store type was specified for the decimal property 'Revenue' on entity type 'Publisher'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-01-19 23:28:35.167 +01:00 [INF] Executed DbCommand (150ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-01-19 23:28:36.304 +01:00 [INF] Executed DbCommand (16ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Boolean), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshTokens] ([DateAdded], [DateExpire], [IsRevoked], [JwtId], [Token], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-01-19 23:28:36.400 +01:00 [INF] Executing OkObjectResult, writing value of type 'MyBook.Domain.ApiResponse`1[[MyBook.Domain.Dto.AuthResultDto, MyBook.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-19 23:28:36.438 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI) in 5527.1121ms
+2024-01-19 23:28:36.444 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2024-01-19 23:28:36.458 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7141/api/Authentication/User-login application/json 60 - 200 - application/json;+charset=utf-8 5578.3010ms
+2024-01-19 23:29:02.272 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 690
+2024-01-19 23:29:02.295 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 23:29:02.300 +01:00 [INF] Route matched with {action = "Refresh", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(MyBook.Domain.Dto.TokenRequestDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2024-01-19 23:29:02.367 +01:00 [INF] Executing OkObjectResult, writing value of type 'MyBook.Domain.ApiResponse`1[[MyBook.Domain.Dto.AuthResultDto, MyBook.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-19 23:29:02.373 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI) in 66.3623ms
+2024-01-19 23:29:02.378 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 23:29:02.382 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 690 - 200 - application/json;+charset=utf-8 109.6850ms
+2024-01-19 23:29:09.117 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 690
+2024-01-19 23:29:09.122 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 23:29:09.126 +01:00 [INF] Route matched with {action = "Refresh", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(MyBook.Domain.Dto.TokenRequestDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2024-01-19 23:29:09.134 +01:00 [INF] Executing OkObjectResult, writing value of type 'MyBook.Domain.ApiResponse`1[[MyBook.Domain.Dto.AuthResultDto, MyBook.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-19 23:29:09.138 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI) in 6.5437ms
+2024-01-19 23:29:09.143 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 23:29:09.149 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 690 - 200 - application/json;+charset=utf-8 31.1719ms
+2024-01-19 23:29:15.796 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 690
+2024-01-19 23:29:15.814 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 23:29:15.817 +01:00 [INF] Route matched with {action = "Refresh", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(MyBook.Domain.Dto.TokenRequestDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2024-01-19 23:29:15.826 +01:00 [INF] Executing OkObjectResult, writing value of type 'MyBook.Domain.ApiResponse`1[[MyBook.Domain.Dto.AuthResultDto, MyBook.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-19 23:29:15.832 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI) in 8.7067ms
+2024-01-19 23:29:15.838 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 23:29:15.846 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 690 - 200 - application/json;+charset=utf-8 49.8337ms
+2024-01-19 23:29:23.011 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 690
+2024-01-19 23:29:23.015 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 23:29:23.021 +01:00 [INF] Route matched with {action = "Refresh", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(MyBook.Domain.Dto.TokenRequestDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2024-01-19 23:29:23.031 +01:00 [INF] Executing OkObjectResult, writing value of type 'MyBook.Domain.ApiResponse`1[[MyBook.Domain.Dto.AuthResultDto, MyBook.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-19 23:29:23.042 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI) in 13.5394ms
+2024-01-19 23:29:23.048 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 23:29:23.052 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 690 - 200 - application/json;+charset=utf-8 40.4163ms
+2024-01-19 23:29:35.503 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 690
+2024-01-19 23:29:35.506 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 23:29:35.510 +01:00 [INF] Route matched with {action = "Refresh", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(MyBook.Domain.Dto.TokenRequestDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2024-01-19 23:29:35.995 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI) in 477.543ms
+2024-01-19 23:29:36.003 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 23:29:36.008 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '1/19/2024 10:29:35 PM', Current time: '1/19/2024 10:29:35 PM'.
+   at MyBook.Application.Implementations.AuthenticationService.VerifyAndGenerateTokenAsync(TokenRequestDto tokenRequest) in C:\Users\user1\Documents\Incase\MyBook\MyBook.Application\Implementations\AuthenticationService.cs:line 197
+   at MyBook.Application.Implementations.AuthenticationService.RefreshToken(TokenRequestDto tokenRequest) in C:\Users\user1\Documents\Incase\MyBook\MyBook.Application\Implementations\AuthenticationService.cs:line 128
+   at MyBookAPI.Controllers.AuthenticationController.Refresh(TokenRequestDto tokenRequestDto) in C:\Users\user1\Documents\Incase\MyBook\MyBookAPI\Controllers\AuthenticationController.cs:line 49
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-01-19 23:29:36.034 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 690 - 500 - text/plain;+charset=utf-8 531.1737ms
+2024-01-19 23:30:02.259 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 690
+2024-01-19 23:30:02.263 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 23:30:02.267 +01:00 [INF] Route matched with {action = "Refresh", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(MyBook.Domain.Dto.TokenRequestDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2024-01-19 23:35:44.084 +01:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-19 23:35:44.840 +01:00 [INF] Now listening on: https://localhost:7141
+2024-01-19 23:35:44.846 +01:00 [INF] Now listening on: http://localhost:5223
+2024-01-19 23:35:44.851 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-19 23:35:44.854 +01:00 [INF] Hosting environment: Development
+2024-01-19 23:35:44.857 +01:00 [INF] Content root path: C:\Users\user1\Documents\Incase\MyBook\MyBookAPI
+2024-01-19 23:35:46.301 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 690
+2024-01-19 23:35:46.636 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 23:35:46.721 +01:00 [INF] Route matched with {action = "Refresh", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(MyBook.Domain.Dto.TokenRequestDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2024-01-19 23:35:54.544 +01:00 [INF] Executing OkObjectResult, writing value of type 'MyBook.Domain.ApiResponse`1[[MyBook.Domain.Dto.AuthResultDto, MyBook.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-19 23:35:54.615 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI) in 7872.3742ms
+2024-01-19 23:35:54.622 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 23:35:54.637 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 690 - 200 - application/json;+charset=utf-8 8340.5363ms
+2024-01-19 23:35:59.981 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2024-01-19 23:36:00.949 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 968.6636ms
+2024-01-19 23:36:01.047 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2024-01-19 23:36:01.047 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2024-01-19 23:36:01.066 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 19.0676ms
+2024-01-19 23:36:01.205 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 158.3062ms
+2024-01-19 23:36:01.423 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2024-01-19 23:36:01.937 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 514.0097ms
+2024-01-19 23:37:10.731 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Authentication/User-login application/json 60
+2024-01-19 23:37:10.753 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2024-01-19 23:37:10.781 +01:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MyBook.Domain.Dto.LoginDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2024-01-19 23:37:12.054 +01:00 [WRN] There are multiple relationships between 'Book' and 'Publisher' without configured foreign key properties. This will cause Entity Framework to create shadow properties on 'Book' with names dependent on the discovery order. Consider configuring the foreign key properties using the [ForeignKey] attribute or in 'OnModelCreating'.
+2024-01-19 23:37:12.520 +01:00 [WRN] The foreign key property 'Book.PublisherId1' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2024-01-19 23:37:12.525 +01:00 [WRN] The foreign key property 'Book.PublisherId2' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2024-01-19 23:37:12.617 +01:00 [WRN] No store type was specified for the decimal property 'Revenue' on entity type 'Publisher'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-01-19 23:37:14.599 +01:00 [INF] Executed DbCommand (128ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-01-19 23:37:15.624 +01:00 [INF] Executed DbCommand (21ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Boolean), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshTokens] ([DateAdded], [DateExpire], [IsRevoked], [JwtId], [Token], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-01-19 23:37:15.706 +01:00 [INF] Executing OkObjectResult, writing value of type 'MyBook.Domain.ApiResponse`1[[MyBook.Domain.Dto.AuthResultDto, MyBook.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-19 23:37:15.731 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI) in 4943.8776ms
+2024-01-19 23:37:15.738 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2024-01-19 23:37:15.770 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7141/api/Authentication/User-login application/json 60 - 200 - application/json;+charset=utf-8 5038.8068ms
+2024-01-19 23:37:44.544 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 691
+2024-01-19 23:37:44.553 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 23:37:44.556 +01:00 [INF] Route matched with {action = "Refresh", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(MyBook.Domain.Dto.TokenRequestDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2024-01-19 23:38:31.854 +01:00 [INF] Executed DbCommand (9ms) [Parameters=[@__tokenRequest_RefreshToken_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[DateAdded], [r].[DateExpire], [r].[IsRevoked], [r].[JwtId], [r].[Token], [r].[UserId]
+FROM [RefreshTokens] AS [r]
+WHERE [r].[Token] = @__tokenRequest_RefreshToken_0
+2024-01-19 23:38:44.766 +01:00 [INF] Executed DbCommand (9ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0
+2024-01-19 23:39:01.307 +01:00 [INF] Executing OkObjectResult, writing value of type 'MyBook.Domain.ApiResponse`1[[MyBook.Domain.Dto.AuthResultDto, MyBook.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-19 23:39:04.474 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI) in 79910.6424ms
+2024-01-19 23:39:04.481 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Refresh (MyBookAPI)'
+2024-01-19 23:39:04.484 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7141/api/Authentication/refresh-token application/json 691 - 200 - application/json;+charset=utf-8 79940.9527ms
+2024-01-19 23:40:54.637 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7141/api/Publisher/get-all-publisher application/json 220
+2024-01-19 23:40:54.672 +01:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '1/19/2024 10:08:17 PM', Current time: '1/19/2024 10:40:54 PM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2024-01-19 23:40:54.739 +01:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '1/19/2024 10:08:17 PM', Current time: '1/19/2024 10:40:54 PM'.
+2024-01-19 23:40:54.766 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-01-19 23:40:54.801 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-01-19 23:40:54.806 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7141/api/Publisher/get-all-publisher application/json 220 - 401 0 - 169.4347ms
+2024-01-19 23:41:25.229 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7141/api/Publisher/get-all-publisher application/json 220
+2024-01-19 23:41:25.241 +01:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '1/19/2024 10:39:46 PM', Current time: '1/19/2024 10:41:25 PM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2024-01-19 23:41:25.249 +01:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '1/19/2024 10:39:46 PM', Current time: '1/19/2024 10:41:25 PM'.
+2024-01-19 23:41:25.259 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-01-19 23:41:25.264 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-01-19 23:41:25.270 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7141/api/Publisher/get-all-publisher application/json 220 - 401 0 - 41.1822ms
+2024-01-19 23:41:41.726 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7141/api/Publisher/get-all-publisher application/json 220
+2024-01-19 23:41:41.729 +01:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '1/19/2024 10:39:46 PM', Current time: '1/19/2024 10:41:41 PM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2024-01-19 23:41:41.741 +01:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '1/19/2024 10:39:46 PM', Current time: '1/19/2024 10:41:41 PM'.
+2024-01-19 23:41:41.747 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-01-19 23:41:41.752 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-01-19 23:41:41.760 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7141/api/Publisher/get-all-publisher application/json 220 - 401 0 - 33.6250ms

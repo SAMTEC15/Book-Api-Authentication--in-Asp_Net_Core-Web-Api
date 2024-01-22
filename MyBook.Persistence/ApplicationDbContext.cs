@@ -13,8 +13,8 @@ namespace MyBook.Persistence
         public DbSet<BookAuthor> BookAuthors { get; set; }
         public DbSet<Author> Authors { get; set; }
         public DbSet<Publisher> Publishers { get; set; }
-
         public DbSet<Image> Images { get; set; }
+        public DbSet<RefreshToken> RefreshTokens { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 

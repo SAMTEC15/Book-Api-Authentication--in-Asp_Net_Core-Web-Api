@@ -12,6 +12,7 @@ using MyBook.Persistence;
 using MyBook.Persistence.Repositories;
 using MyBook.Persistence.Repositories.Implementations;
 using MyBook.Persistence.Repositories.Interfaces;
+using MyBook.Persistence.Seeder;
 using Serilog;
 using System.Text;
 using static Org.BouncyCastle.Math.EC.ECCurve;
@@ -44,10 +45,7 @@ builder.Services.AddScoped<IAuthenticationRepository, AuthenticationRepository>(
 builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
 builder.Services.AddScoped<IEmailService, EmailService>();
 
-//Registration of Idenity
-builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
-    .AddEntityFrameworkStores<ApplicationDbContext>()
-    .AddDefaultTokenProviders();
+
 
 // Config Identity
 //builder.Services.Configure<IdentityOptions>(options =>
@@ -61,6 +59,37 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
 //});
 
 
+
+//Registration of Idenity
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+    .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddDefaultTokenProviders();
+
+//builder.Services.AddSingleton<TokenValidationParameters>();
+
+//Token validation parameters
+var tokenValidationParameters = new TokenValidationParameters()
+{  
+
+    ValidateIssuerSigningKey = true,
+    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JwtSettings:Key"])),
+
+    ValidateIssuer = true,
+    ValidIssuer = builder.Configuration["JwtSettings:ValidIssuer"],
+
+    ValidAudience = builder.Configuration["JwtSettings:ValidAudience"],
+    ValidateAudience = true,
+
+    ValidateActor = true,
+    ValidateLifetime = true,
+    ClockSkew = TimeSpan.Zero
+
+    //IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(builder.Configuration["JwtSettings:Key"]))
+};
+
+// This service was injected in the authenticationService Class this is to help in Checking JWT token format 
+builder.Services.AddSingleton(tokenValidationParameters);
+
 //Registrating JWT
 builder.Services.AddAuthentication( options =>
 {
@@ -72,17 +101,7 @@ builder.Services.AddAuthentication( options =>
 {
     options.SaveToken = true;
     options.RequireHttpsMetadata = false;
-    options.TokenValidationParameters = new TokenValidationParameters()
-    {
-        ValidateActor = true,
-        ValidateAudience = true,
-        ValidateLifetime = true,
-        ValidateIssuerSigningKey = true,
-        ValidIssuer = builder.Configuration["JwtSettings:ValidIssuer"],
-        ValidAudience = builder.Configuration["JwtSettings:ValidAudience"],
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JwtSettings:Key"]))
-        //IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(builder.Configuration["JwtSettings:Key"]))
-    };
+    options.TokenValidationParameters = tokenValidationParameters;
 });
 builder.Services.AddAuthorization();
 //builder.Services.AddTransient<GlobalExceptionHandlingMiddleware>();
@@ -111,6 +130,11 @@ if (app.Environment.IsDevelopment())
     Seeder.SeedRolesAndSuperAdmin(serviceProvider);
 }*/
 
+using (var scope = app.Services.CreateScope())
+{
+    var serviceProvider = scope.ServiceProvider;
+    AddDbInitializer.SeedUserRoles(serviceProvider);
+}
 app.UseHttpsRedirection();
 
 app.UseAuthentication();

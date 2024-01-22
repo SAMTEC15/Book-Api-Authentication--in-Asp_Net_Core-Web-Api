@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using MyBook.Domain.Models;
 using System;
 using System.Collections.Generic;
@@ -63,6 +65,46 @@ namespace MyBook.Persistence.Seeder
 
                     });
             //}
+        }
+
+       /* private static void SeedUserRoles(ModelBuilder modelBuilder)
+        {
+            var roleManger = modelBuilder.
+            modelBuilder.Entity<IdentityRole>().HasData(
+                new IdentityRole { Id = "1", Name = UserRole.Admin, NormalizedName = UserRole.Admin.ToUpper() },
+                new IdentityRole { Id = "2", Name = UserRole.Publisher, NormalizedName = UserRole.Publisher.ToUpper() },
+                new IdentityRole { Id = "3", Name = UserRole.Author, NormalizedName = UserRole.Author.ToUpper() },
+                new IdentityRole { Id = "4", Name = UserRole.User, NormalizedName = UserRole.User.ToUpper() }
+            );
+        }*/
+        public static async Task SeedUserRoles(IServiceProvider serviceProvider)
+        {
+            var roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+
+            // Seed roles
+            if (!await roleManager.RoleExistsAsync(UserRole.Admin))
+            {
+                var role = new IdentityRole(UserRole.Admin);
+                await roleManager.CreateAsync(role);
+            }
+
+            if (!await roleManager.RoleExistsAsync(UserRole.Author))
+            {
+                var role = new IdentityRole(UserRole.Author);
+                await roleManager.CreateAsync(role);
+            }
+
+            if (!await roleManager.RoleExistsAsync(UserRole.Publisher))
+            {
+                var role = new IdentityRole(UserRole.Publisher);
+                await roleManager.CreateAsync(role);
+            }
+
+            if (!await roleManager.RoleExistsAsync(UserRole.User))
+            {
+                var role = new IdentityRole(UserRole.User);
+                await roleManager.CreateAsync(role);
+            }
         }
     }
 }
